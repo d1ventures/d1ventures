@@ -5,6 +5,13 @@
 // D1 Ventures
 // Inspired by Grant Hummer http://www.granthummer.com/
 // Layout
+.d1-logo {
+  display: block;
+  height: 3rem;
+  margin: 10vh auto;
+  width: 3rem;
+}
+
 .grid {
   display: flex;
   flex-direction: column;
@@ -27,6 +34,8 @@
     .grid-col {
       font-size: .8rem;
       font-weight: 700;
+      height: 1.25rem;
+      line-height: 1.25rem;
       text-align: center;
       position: relative;
       width: 1.25rem;
@@ -37,6 +46,7 @@
           background: $light-color;
           content: "";
           position: absolute;
+          z-index: 1;
         }
       }
     }
@@ -45,23 +55,49 @@
 
 // Animations
 .grid-row {
+  .grid-brand {
+    &::before {
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  }
+
   .grid-col {
     &::before {
       content: "";
       position: absolute;
+      text-align: center;
+      z-index: 1;
     }
   }
 
   @for $i from 1 through 10 {
     &:nth-child(#{$i}) {
-      .grid-col {
+      .grid-r {
         @for $j from 1 through 20 {
-          &:not(.grid-s):nth-child(#{$j}) {
+          &:nth-child(#{$j}) {
             &::before {
               animation: a#{$j % 4} .5s ease-in #{(random(100)/300)}s 1;
+              background: $light-color;
             }
           }
         }
+      }
+    }
+  }
+}
+
+// Brand animations
+.grid-brand {
+  @for $i from 5 through 17 {
+    &:nth-child(#{$i}) {
+      &::before {
+        animation: b#{$i - 4} .5s ease-in .5s 1 !important;
       }
     }
   }
@@ -280,5 +316,389 @@
   }
   100% {
     content: "";
+  }
+}
+
+@keyframes b1 {
+  0% {
+    background: $light-color;
+    content: "E";
+  }
+  10% {
+    content: "E";
+  }
+  20% {
+    content: "A";
+  }
+  30% {
+    content: "I";
+  }
+  40% {
+    content: "A";
+  }
+  50% {
+    content: "I";
+  }
+  60% {
+    content: "E";
+  }
+  70% {
+    content: "1";
+  }
+  100% {
+    background: $light-color;
+    content: "1";
+  }
+}
+
+@keyframes b2 {
+  0% {
+    background: $light-color;
+    content: "F";
+  }
+  10% {
+    content: "C";
+  }
+  20% {
+    content: "O";
+  }
+  30% {
+    content: "S";
+  }
+  40% {
+    content: "P";
+  }
+  50% {
+    content: "G";
+  }
+  60% {
+    content: "X";
+  }
+  70% {
+    content: ".";
+  }
+  100% {
+    background: $light-color;
+    content: ".";
+  }
+}
+
+@keyframes b3 {
+  0% {
+    background: $light-color;
+    content: "I";
+  }
+  10% {
+    content: "E";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "T";
+  }
+  40% {
+    content: "P";
+  }
+  50% {
+    content: "I";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "V";
+  }
+  100% {
+    background: $light-color;
+    content: "V";
+  }
+}
+
+@keyframes b4 {
+  0% {
+    background: $light-color;
+    content: ".";
+  }
+  10% {
+    content: "N";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "R";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "T";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "E";
+  }
+  100% {
+    background: $light-color;
+    content: "E";
+  }
+}
+
+@keyframes b5 {
+  0% {
+    background: $light-color;
+    content: ".";
+  }
+  10% {
+    content: "T";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "I";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "A";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "N";
+  }
+  100% {
+    background: $light-color;
+    content: "N";
+  }
+}
+
+@keyframes b6 {
+  0% {
+    background: $light-color;
+    content: ".";
+  }
+  10% {
+    content: "R";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "B";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "L";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "T";
+  }
+  100% {
+    background: $light-color;
+    content: "T";
+  }
+}
+
+@keyframes b7 {
+  0% {
+    background: $light-color;
+    content: ".";
+  }
+  10% {
+    content: "A";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "U";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "A";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "U";
+  }
+  100% {
+    background: $light-color;
+    content: "U";
+  }
+}
+
+@keyframes b8 {
+  0% {
+    background: $light-color;
+    content: ".";
+  }
+  10% {
+    content: "L";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "T";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "S";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "R";
+  }
+  100% {
+    background: $light-color;
+    content: "R";
+  }
+}
+
+@keyframes b9 {
+  0% {
+    background: $light-color;
+    content: ".";
+  }
+  10% {
+    content: "I";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "E";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "S";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "E";
+  }
+  100% {
+    background: $light-color;
+    content: "E";
+  }
+}
+
+@keyframes b10 {
+  0% {
+    background: $light-color;
+    content: ".";
+  }
+  10% {
+    content: "Z";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "D";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "E";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "S";
+  }
+  100% {
+    background: $light-color;
+    content: "S";
+  }
+}
+
+@keyframes b11 {
+  0% {
+    background: $light-color;
+    content: ".";
+  }
+  10% {
+    content: "E";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: ".";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "T";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: ".";
+  }
+  100% {
+    background: $light-color;
+    content: ".";
+  }
+}
+
+@keyframes b12 {
+  0% {
+    background: $light-color;
+    content: ".";
+  }
+  10% {
+    content: "D";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: ".";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "S";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: ".";
+  }
+  100% {
+    background: $light-color;
+    content: ".";
   }
 }
