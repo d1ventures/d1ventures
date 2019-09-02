@@ -1,0 +1,31 @@
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh auto;
+  
+  .grid-row {
+    color: $dark-color;
+    display: flex;
+    margin: 0 auto;
+
+    &:focus,
+    &:hover {
+      text-decoration: none;
+
+      .grid-s {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .grid-col {
+    font-size: .8rem;
+    font-weight: 700;
+    text-align: center;
+    width: 1.25rem;
+  }
+}

@@ -1,0 +1,45 @@
+block global
+  - var domain = 'https://d1.ventures'
+  - var url = domain
+
+block variables
+  - var slug = 'index'
+  - var parent = 'index'
+  - var title = 'D1 Ventures'
+  - var description = ''
+
+if slug == parent
+  if slug == 'index'
+    - var url = domain 
+  else
+    - var url = domain + slug + '.html'
+else 
+  - var url = domain + parent + '/' + slug + '.html'
+
+doctype html
+html(lang='en')
+  head
+    title= title
+    meta(charset='utf-8')
+    meta(name='robots' content='index, follow')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+    meta(http-equiv='x-ua-compatible' content='ie=edge')
+    meta(name='description' content= description)
+    meta(property='og:url' content= url)
+    meta(property='og:title' content= title)
+    meta(property='og:description' content= description)
+    meta(property='og:image' content= domain + '/assets/img/winkrypto-image.jpg')
+    if slug != parent
+      link(rel='shortcut icon' href='assets/favicons/favicon.ico')
+      link(rel='icon' href='assets/favicons/apple-touch-icon.png')
+      link(rel='stylesheet' href='../assets/css/spectre.min.css')
+      link(rel='stylesheet' href='../assets/css/d1ventures.min.css') 
+    else 
+      link(rel='shortcut icon' href='assets/favicons/favicon.ico')
+      link(rel='icon' href='assets/favicons/favicon.png')
+      link(rel='stylesheet' href='assets/css/spectre.min.css')
+      link(rel='stylesheet' href='assets/css/d1ventures.min.css')
+    link(rel='canonical' href= url)
+
+  body
+    block content
