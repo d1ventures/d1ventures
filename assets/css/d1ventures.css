@@ -23,7 +23,7 @@
   color: #fa6429;
 }
 
-.grid .grid-col {
+.grid .grid-row .grid-col {
   font-size: .8rem;
   font-weight: 700;
   position: relative;
@@ -31,107 +31,816 @@
   width: 1.25rem;
 }
 
-.grid .grid-col:hover::before {
-  animation: hover .5s ease 2 !important;
+.grid .grid-row .grid-col:hover::before {
+  animation: hover .5s ease-in 0s 2 !important;
   background: #fff;
   content: "";
   position: absolute;
 }
 
-.grid .grid-row:nth-child(odd) .grid-col:not(.grid-s):nth-child(8n+1)::before {
-  animation: a .5s ease 1;
+.grid-row .grid-col::before {
   content: "";
   position: absolute;
 }
 
-.grid .grid-row:nth-child(odd) .grid-col:not(.grid-s):nth-child(8n+2)::before {
-  animation: b .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .03s 1;
 }
 
-.grid .grid-row:nth-child(odd) .grid-col:not(.grid-s):nth-child(8n+3)::before {
-  animation: c .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .08s 1;
 }
 
-.grid .grid-row:nth-child(odd) .grid-col:not(.grid-s):nth-child(8n+4)::before {
-  animation: d .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .2166666667s 1;
 }
 
-.grid .grid-row:nth-child(odd) .grid-col:not(.grid-s):nth-child(8n+5)::before {
-  animation: e .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .0433333333s 1;
 }
 
-.grid .grid-row:nth-child(odd) .grid-col:not(.grid-s):nth-child(8n+6)::before {
-  animation: f .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .27s 1;
 }
 
-.grid .grid-row:nth-child(odd) .grid-col:not(.grid-s):nth-child(8n+7)::before {
-  animation: g .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .1533333333s 1;
 }
 
-.grid .grid-row:nth-child(odd) .grid-col:not(.grid-s):nth-child(8n+8)::before {
-  animation: h .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .0566666667s 1;
 }
 
-.grid .grid-row:nth-child(even) .grid-col:not(.grid-s):nth-child(8n+1)::before {
-  animation: g .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .0033333333s 1;
 }
 
-.grid .grid-row:nth-child(even) .grid-col:not(.grid-s):nth-child(8n+2)::before {
-  animation: h .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .2033333333s 1;
 }
 
-.grid .grid-row:nth-child(even) .grid-col:not(.grid-s):nth-child(8n+3)::before {
-  animation: e .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .2733333333s 1;
 }
 
-.grid .grid-row:nth-child(even) .grid-col:not(.grid-s):nth-child(8n+4)::before {
-  animation: f .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .2266666667s 1;
 }
 
-.grid .grid-row:nth-child(even) .grid-col:not(.grid-s):nth-child(8n+5)::before {
-  animation: c .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .0633333333s 1;
 }
 
-.grid .grid-row:nth-child(even) .grid-col:not(.grid-s):nth-child(8n+6)::before {
-  animation: d .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .2633333333s 1;
 }
 
-.grid .grid-row:nth-child(even) .grid-col:not(.grid-s):nth-child(8n+7)::before {
-  animation: a .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .0366666667s 1;
 }
 
-.grid .grid-row:nth-child(even) .grid-col:not(.grid-s):nth-child(8n+8)::before {
-  animation: b .5s ease 1;
-  content: "";
-  position: absolute;
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .27s 1;
+}
+
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .1166666667s 1;
+}
+
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .0666666667s 1;
+}
+
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .28s 1;
+}
+
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .08s 1;
+}
+
+.grid-row:nth-child(1) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .2666666667s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .0033333333s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .22s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .26s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .1466666667s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .2466666667s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .0633333333s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .0833333333s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .1433333333s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .1966666667s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .2666666667s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .2333333333s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .2866666667s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .2133333333s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .2s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .1966666667s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .2766666667s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .1933333333s 1;
+}
+
+.grid-row:nth-child(2) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .0333333333s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .0733333333s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .1633333333s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .3133333333s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .3066666667s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .1233333333s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .1166666667s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .0766666667s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .2066666667s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .3166666667s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .2533333333s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .3s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .1766666667s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .3333333333s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .2333333333s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .18s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .2033333333s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .2766666667s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .1s 1;
+}
+
+.grid-row:nth-child(3) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .0166666667s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .1166666667s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .19s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .2766666667s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .0133333333s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .0066666667s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .1666666667s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .1533333333s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .3033333333s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .3233333333s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .0566666667s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .2766666667s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .1933333333s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .19s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .1966666667s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .28s 1;
+}
+
+.grid-row:nth-child(4) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .0533333333s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .14s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .1466666667s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .0166666667s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .2133333333s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .0266666667s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .2533333333s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .1433333333s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .0966666667s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .1133333333s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .0266666667s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .1733333333s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .3066666667s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .0466666667s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .2433333333s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .2566666667s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .2733333333s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .0966666667s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .3333333333s 1;
+}
+
+.grid-row:nth-child(5) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .0066666667s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .13s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .0633333333s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .3133333333s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .2166666667s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .0366666667s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .0866666667s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .0133333333s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .1633333333s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .0966666667s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .3066666667s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .31s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .0333333333s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .24s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .1533333333s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .22s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .1133333333s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .1566666667s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .25s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .2133333333s 1;
+}
+
+.grid-row:nth-child(6) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .2966666667s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .14s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .2833333333s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .2366666667s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .1866666667s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .03s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .2066666667s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .0766666667s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .0333333333s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .15s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .22s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .1366666667s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .1866666667s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .0933333333s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .0266666667s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .0433333333s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .1166666667s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .0133333333s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .2533333333s 1;
+}
+
+.grid-row:nth-child(7) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .04s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .0933333333s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .2466666667s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .2533333333s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .3266666667s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .26s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .1066666667s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .1466666667s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .26s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .1366666667s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .2s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .08s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .1633333333s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .0733333333s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .2733333333s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .14s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .0966666667s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .0766666667s 1;
+}
+
+.grid-row:nth-child(8) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .26s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .3066666667s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .1s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .3066666667s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .28s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .1733333333s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .1733333333s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .2133333333s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .0366666667s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .09s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .0266666667s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .0033333333s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .2033333333s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .2533333333s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .15s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .0666666667s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .2066666667s 1;
+}
+
+.grid-row:nth-child(9) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .1633333333s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(1)::before {
+  animation: a1 .5s ease-in .0466666667s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(2)::before {
+  animation: a2 .5s ease-in .3033333333s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(3)::before {
+  animation: a3 .5s ease-in .0466666667s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(4)::before {
+  animation: a0 .5s ease-in .24s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(5)::before {
+  animation: a1 .5s ease-in .1633333333s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(6)::before {
+  animation: a2 .5s ease-in .0166666667s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(7)::before {
+  animation: a3 .5s ease-in .3233333333s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(8)::before {
+  animation: a0 .5s ease-in .22s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(9)::before {
+  animation: a1 .5s ease-in .1s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(10)::before {
+  animation: a2 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(11)::before {
+  animation: a3 .5s ease-in .0866666667s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(12)::before {
+  animation: a0 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(13)::before {
+  animation: a1 .5s ease-in .01s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(14)::before {
+  animation: a2 .5s ease-in .2s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(15)::before {
+  animation: a3 .5s ease-in .1633333333s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(16)::before {
+  animation: a0 .5s ease-in .26s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(17)::before {
+  animation: a1 .5s ease-in .0333333333s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(18)::before {
+  animation: a2 .5s ease-in .1633333333s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(19)::before {
+  animation: a3 .5s ease-in .15s 1;
+}
+
+.grid-row:nth-child(10) .grid-col:not(.grid-s):nth-child(20)::before {
+  animation: a0 .5s ease-in .0333333333s 1;
 }
 
 @keyframes hover {
@@ -170,7 +879,7 @@
   }
 }
 
-@keyframes a {
+@keyframes a0 {
   0% {
     content: "W";
   }
@@ -206,7 +915,7 @@
   }
 }
 
-@keyframes b {
+@keyframes a1 {
   0% {
     content: "B";
   }
@@ -242,7 +951,7 @@
   }
 }
 
-@keyframes c {
+@keyframes a2 {
   0% {
     content: "D";
   }
@@ -278,7 +987,7 @@
   }
 }
 
-@keyframes d {
+@keyframes a3 {
   0% {
     content: "C";
   }
@@ -314,7 +1023,7 @@
   }
 }
 
-@keyframes e {
+@keyframes a4 {
   0% {
     content: "C";
   }
@@ -344,114 +1053,6 @@
   }
   90% {
     content: "I";
-  }
-  100% {
-    content: "";
-  }
-}
-
-@keyframes f {
-  0% {
-    content: "C";
-  }
-  10% {
-    content: "H";
-  }
-  20% {
-    content: "A";
-  }
-  30% {
-    content: "I";
-  }
-  40% {
-    content: "N";
-  }
-  50% {
-    content: "E";
-  }
-  60% {
-    content: "V";
-  }
-  70% {
-    content: "E";
-  }
-  80% {
-    content: "N";
-  }
-  90% {
-    content: "T";
-  }
-  100% {
-    content: "";
-  }
-}
-
-@keyframes g {
-  0% {
-    content: "S";
-  }
-  10% {
-    content: "T";
-  }
-  20% {
-    content: "A";
-  }
-  30% {
-    content: "K";
-  }
-  40% {
-    content: "I";
-  }
-  50% {
-    content: "N";
-  }
-  60% {
-    content: "G";
-  }
-  70% {
-    content: "P";
-  }
-  80% {
-    content: "O";
-  }
-  90% {
-    content: "S";
-  }
-  100% {
-    content: "";
-  }
-}
-
-@keyframes h {
-  0% {
-    content: "B";
-  }
-  10% {
-    content: "L";
-  }
-  20% {
-    content: "O";
-  }
-  30% {
-    content: "C";
-  }
-  40% {
-    content: "K";
-  }
-  50% {
-    content: "S";
-  }
-  60% {
-    content: "T";
-  }
-  70% {
-    content: "E";
-  }
-  80% {
-    content: "C";
-  }
-  90% {
-    content: "H";
   }
   100% {
     content: "";

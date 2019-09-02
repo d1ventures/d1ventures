@@ -2,6 +2,9 @@
 @import "variables";
 @import "mixins";
 
+// D1 Ventures
+// Inspired by Grant Hummer http://www.granthummer.com/
+// Layout
 .grid {
   display: flex;
   flex-direction: column;
@@ -20,165 +23,49 @@
         color: $primary-color;
       }
     }
-  }
 
-  .grid-col {
-    font-size: .8rem;
-    font-weight: 700;
-    text-align: center;
-    position: relative;
-    width: 1.25rem;
-
-    &:hover {
-      &::before {
-        animation: hover .5s ease 2 !important;
-        background: $light-color;
-        content: "";
-        position: absolute;
-      }
-    }
-  }
-
-  // Animations
-  .grid-row {
-    &:nth-child(odd) {
-      .grid-col:not(.grid-s) {
-        &:nth-child(8n+1) {
-          &::before {
-            animation: a .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
+    .grid-col {
+      font-size: .8rem;
+      font-weight: 700;
+      text-align: center;
+      position: relative;
+      width: 1.25rem;
   
-        &:nth-child(8n+2) {
-          &::before {
-            animation: b .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+3) {
-          &::before {
-            animation: c .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+4) {
-          &::before {
-            animation: d .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-
-        &:nth-child(8n+5) {
-          &::before {
-            animation: e .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+6) {
-          &::before {
-            animation: f .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+7) {
-          &::before {
-            animation: g .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+8) {
-          &::before {
-            animation: h .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-      }
-    }
-
-    &:nth-child(even) {
-      .grid-col:not(.grid-s) {
-        &:nth-child(8n+1) {
-          &::before {
-            animation: g .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+2) {
-          &::before {
-            animation: h .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+3) {
-          &::before {
-            animation: e .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+4) {
-          &::before {
-            animation: f .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-
-        &:nth-child(8n+5) {
-          &::before {
-            animation: c .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+6) {
-          &::before {
-            animation: d .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+7) {
-          &::before {
-            animation: a .5s ease 1;
-            content: "";
-            position: absolute;
-          }
-        }
-  
-        &:nth-child(8n+8) {
-          &::before {
-            animation: b .5s ease 1;
-            content: "";
-            position: absolute;
-          }
+      &:hover {
+        &::before {
+          animation: hover .5s ease-in 0s 2 !important;
+          background: $light-color;
+          content: "";
+          position: absolute;
         }
       }
     }
   }
 }
 
+// Animations
+.grid-row {
+  .grid-col {
+    &::before {
+      content: "";
+      position: absolute;
+    }
+  }
+
+  @for $i from 1 through 10 {
+    &:nth-child(#{$i}) {
+      .grid-col {
+        @for $j from 1 through 20 {
+          &:not(.grid-s):nth-child(#{$j}) {
+            &::before {
+              animation: a#{$j % 4} .5s ease-in #{(random(100)/300)}s 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 @keyframes hover {
   0% {
@@ -216,7 +103,7 @@
   }
 }
 
-@keyframes a {
+@keyframes a0 {
   0% {
     content: "W";
   }
@@ -252,7 +139,7 @@
   }
 }
 
-@keyframes b {
+@keyframes a1 {
   0% {
     content: "B";
   }
@@ -288,7 +175,7 @@
   }
 }
 
-@keyframes c {
+@keyframes a2 {
   0% {
     content: "D";
   }
@@ -324,7 +211,7 @@
   }
 }
 
-@keyframes d {
+@keyframes a3 {
   0% {
     content: "C";
   }
@@ -360,7 +247,7 @@
   }
 }
 
-@keyframes e {
+@keyframes a4 {
   0% {
     content: "C";
   }
@@ -390,114 +277,6 @@
   }
   90% {
     content: "I";
-  }
-  100% {
-    content: "";
-  }
-}
-
-@keyframes f {
-  0% {
-    content: "C";
-  }
-  10% {
-    content: "H";
-  }
-  20% {
-    content: "A";
-  }
-  30% {
-    content: "I";
-  }
-  40% {
-    content: "N";
-  }
-  50% {
-    content: "E";
-  }
-  60% {
-    content: "V";
-  }
-  70% {
-    content: "E";
-  }
-  80% {
-    content: "N";
-  }
-  90% {
-    content: "T";
-  }
-  100% {
-    content: "";
-  }
-}
-
-@keyframes g {
-  0% {
-    content: "S";
-  }
-  10% {
-    content: "T";
-  }
-  20% {
-    content: "A";
-  }
-  30% {
-    content: "K";
-  }
-  40% {
-    content: "I";
-  }
-  50% {
-    content: "N";
-  }
-  60% {
-    content: "G";
-  }
-  70% {
-    content: "P";
-  }
-  80% {
-    content: "O";
-  }
-  90% {
-    content: "S";
-  }
-  100% {
-    content: "";
-  }
-}
-
-@keyframes h {
-  0% {
-    content: "B";
-  }
-  10% {
-    content: "L";
-  }
-  20% {
-    content: "O";
-  }
-  30% {
-    content: "C";
-  }
-  40% {
-    content: "K";
-  }
-  50% {
-    content: "S";
-  }
-  60% {
-    content: "T";
-  }
-  70% {
-    content: "E";
-  }
-  80% {
-    content: "C";
-  }
-  90% {
-    content: "H";
   }
   100% {
     content: "";
