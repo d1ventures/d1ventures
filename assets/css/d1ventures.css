@@ -9,6 +9,8 @@
 .grid {
   display: flex;
   display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   margin: 10vh auto;
@@ -18,6 +20,7 @@
   color: #000;
   display: flex;
   display: -ms-flexbox;
+  display: -webkit-flex;
   margin: 0 auto;
 }
 
@@ -42,6 +45,7 @@
 }
 
 .grid .grid-row .grid-col:hover::before {
+  -webkit-animation: hover .5s ease-in 0s 2 !important;
   animation: hover .5s ease-in 0s 2 !important;
   content: "";
   position: absolute;
@@ -66,775 +70,1007 @@
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .15s 1;
+  -webkit-animation: a1 .5s ease-in .47s 1;
+  animation: a1 .5s ease-in .47s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .41s 1;
+  -webkit-animation: a2 .5s ease-in .27s 1;
+  animation: a2 .5s ease-in .27s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .27s 1;
+  -webkit-animation: a3 .5s ease-in .445s 1;
+  animation: a3 .5s ease-in .445s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .27s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .28s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .265s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .23s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .11s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .15s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .465s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .045s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .45s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .255s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .295s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(1)::before {
-  animation: a2 .5s ease-in .215s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .45s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(3)::before {
-  animation: a2 .5s ease-in .29s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .165s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(5)::before {
-  animation: a2 .5s ease-in .075s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .465s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(7)::before {
-  animation: a2 .5s ease-in .465s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .335s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(9)::before {
-  animation: a2 .5s ease-in .36s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .36s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(11)::before {
-  animation: a2 .5s ease-in .41s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .345s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(13)::before {
-  animation: a2 .5s ease-in .26s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .115s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(15)::before {
-  animation: a2 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .425s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(17)::before {
-  animation: a2 .5s ease-in .265s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .27s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(1)::before {
-  animation: a3 .5s ease-in .05s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .415s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(3)::before {
-  animation: a1 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(5)::before {
-  animation: a3 .5s ease-in .19s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .22s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(7)::before {
-  animation: a1 .5s ease-in .1s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .355s 1;
   animation: a0 .5s ease-in .355s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(9)::before {
-  animation: a3 .5s ease-in .145s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(5)::before {
+  -webkit-animation: a1 .5s ease-in .385s 1;
+  animation: a1 .5s ease-in .385s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .46s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(6)::before {
+  -webkit-animation: a2 .5s ease-in .125s 1;
+  animation: a2 .5s ease-in .125s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(11)::before {
-  animation: a1 .5s ease-in .08s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(7)::before {
+  -webkit-animation: a3 .5s ease-in .02s 1;
+  animation: a3 .5s ease-in .02s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .425s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .105s 1;
+  animation: a0 .5s ease-in .105s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(13)::before {
-  animation: a3 .5s ease-in .09s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(9)::before {
+  -webkit-animation: a1 .5s ease-in .095s 1;
+  animation: a1 .5s ease-in .095s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .21s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(10)::before {
+  -webkit-animation: a2 .5s ease-in .38s 1;
+  animation: a2 .5s ease-in .38s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(15)::before {
-  animation: a1 .5s ease-in .29s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(11)::before {
+  -webkit-animation: a3 .5s ease-in .475s 1;
+  animation: a3 .5s ease-in .475s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .35s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .09s 1;
+  animation: a0 .5s ease-in .09s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(17)::before {
-  animation: a3 .5s ease-in .33s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(13)::before {
+  -webkit-animation: a1 .5s ease-in .32s 1;
+  animation: a1 .5s ease-in .32s 1;
 }
 
-.grid-row:nth-child(3) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .16s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(1)::before {
-  animation: a0 .5s ease-in .13s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .31s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(3)::before {
-  animation: a0 .5s ease-in .195s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .185s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(5)::before {
-  animation: a0 .5s ease-in .325s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .07s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(7)::before {
-  animation: a0 .5s ease-in .305s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .36s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(9)::before {
-  animation: a0 .5s ease-in .39s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .115s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(11)::before {
-  animation: a0 .5s ease-in .19s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .425s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(13)::before {
-  animation: a0 .5s ease-in .425s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .175s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(15)::before {
-  animation: a0 .5s ease-in .29s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .055s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(17)::before {
-  animation: a0 .5s ease-in .265s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .41s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .415s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .075s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .435s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .405s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .02s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .485s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .22s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .395s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .31s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .335s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .495s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .29s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .23s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .065s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .31s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .335s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(1)::before {
-  animation: a2 .5s ease-in .045s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .14s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(3)::before {
-  animation: a2 .5s ease-in .05s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .04s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(5)::before {
-  animation: a2 .5s ease-in .405s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .205s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(7)::before {
-  animation: a2 .5s ease-in .23s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .235s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(9)::before {
-  animation: a2 .5s ease-in .06s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .455s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(11)::before {
-  animation: a2 .5s ease-in .2s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .345s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(13)::before {
+.grid-row:nth-child(1) .grid-r:nth-child(14)::before {
+  -webkit-animation: a2 .5s ease-in .055s 1;
   animation: a2 .5s ease-in .055s 1;
 }
 
-.grid-row:nth-child(6) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .175s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(15)::before {
+  -webkit-animation: a3 .5s ease-in .405s 1;
+  animation: a3 .5s ease-in .405s 1;
 }
 
-.grid-row:nth-child(6) .grid-r:nth-child(15)::before {
-  animation: a2 .5s ease-in .415s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .425s 1;
+  animation: a0 .5s ease-in .425s 1;
 }
 
-.grid-row:nth-child(6) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .275s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(17)::before {
+  -webkit-animation: a1 .5s ease-in .205s 1;
+  animation: a1 .5s ease-in .205s 1;
 }
 
-.grid-row:nth-child(6) .grid-r:nth-child(17)::before {
-  animation: a2 .5s ease-in .11s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(18)::before {
+  -webkit-animation: a2 .5s ease-in .015s 1;
+  animation: a2 .5s ease-in .015s 1;
 }
 
-.grid-row:nth-child(6) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .295s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(1)::before {
+  -webkit-animation: a2 .5s ease-in .155s 1;
+  animation: a2 .5s ease-in .155s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(1)::before {
-  animation: a3 .5s ease-in .065s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(3)::before {
-  animation: a1 .5s ease-in .235s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .445s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(5)::before {
-  animation: a3 .5s ease-in .23s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .065s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(7)::before {
-  animation: a1 .5s ease-in .3s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(8)::before {
+.grid-row:nth-child(2) .grid-r:nth-child(2)::before {
+  -webkit-animation: a0 .5s ease-in .225s 1;
   animation: a0 .5s ease-in .225s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(9)::before {
-  animation: a3 .5s ease-in .075s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(3)::before {
+  -webkit-animation: a2 .5s ease-in .22s 1;
+  animation: a2 .5s ease-in .22s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .1s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(4)::before {
+  -webkit-animation: a0 .5s ease-in .05s 1;
+  animation: a0 .5s ease-in .05s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(11)::before {
-  animation: a1 .5s ease-in .48s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(5)::before {
+  -webkit-animation: a2 .5s ease-in .33s 1;
+  animation: a2 .5s ease-in .33s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .445s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(6)::before {
+  -webkit-animation: a0 .5s ease-in .27s 1;
+  animation: a0 .5s ease-in .27s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(13)::before {
-  animation: a3 .5s ease-in .01s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(7)::before {
+  -webkit-animation: a2 .5s ease-in .35s 1;
+  animation: a2 .5s ease-in .35s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .44s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .07s 1;
+  animation: a0 .5s ease-in .07s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(15)::before {
-  animation: a1 .5s ease-in .305s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .295s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(17)::before {
-  animation: a3 .5s ease-in .135s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .17s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(1)::before {
-  animation: a0 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .33s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(3)::before {
-  animation: a0 .5s ease-in .465s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .485s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(5)::before {
-  animation: a0 .5s ease-in .215s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .41s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(7)::before {
-  animation: a0 .5s ease-in .175s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .31s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(9)::before {
-  animation: a0 .5s ease-in .055s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .3s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(11)::before {
-  animation: a0 .5s ease-in .045s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .365s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(13)::before {
-  animation: a0 .5s ease-in .48s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .42s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(15)::before {
-  animation: a0 .5s ease-in .095s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .16s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(17)::before {
-  animation: a0 .5s ease-in .25s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .135s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .125s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .16s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .04s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .11s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .425s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .01s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .33s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(10)::before {
+.grid-row:nth-child(2) .grid-r:nth-child(9)::before {
+  -webkit-animation: a2 .5s ease-in .18s 1;
   animation: a2 .5s ease-in .18s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .03s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(10)::before {
+  -webkit-animation: a0 .5s ease-in .23s 1;
+  animation: a0 .5s ease-in .23s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .5s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(11)::before {
+  -webkit-animation: a2 .5s ease-in .39s 1;
+  animation: a2 .5s ease-in .39s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .19s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .475s 1;
+  animation: a0 .5s ease-in .475s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .26s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(13)::before {
+  -webkit-animation: a2 .5s ease-in .32s 1;
+  animation: a2 .5s ease-in .32s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .265s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(14)::before {
+  -webkit-animation: a0 .5s ease-in .175s 1;
+  animation: a0 .5s ease-in .175s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .14s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(15)::before {
+  -webkit-animation: a2 .5s ease-in .065s 1;
+  animation: a2 .5s ease-in .065s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .455s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .355s 1;
+  animation: a0 .5s ease-in .355s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .13s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(17)::before {
+  -webkit-animation: a2 .5s ease-in .23s 1;
+  animation: a2 .5s ease-in .23s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(1)::before {
-  animation: a2 .5s ease-in .145s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(18)::before {
+  -webkit-animation: a0 .5s ease-in .475s 1;
+  animation: a0 .5s ease-in .475s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .32s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(1)::before {
+  -webkit-animation: a3 .5s ease-in .465s 1;
+  animation: a3 .5s ease-in .465s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(3)::before {
-  animation: a2 .5s ease-in .315s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(2)::before {
+  -webkit-animation: a2 .5s ease-in .24s 1;
+  animation: a2 .5s ease-in .24s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .32s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(3)::before {
+  -webkit-animation: a1 .5s ease-in .37s 1;
+  animation: a1 .5s ease-in .37s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(5)::before {
-  animation: a2 .5s ease-in .425s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(4)::before {
+  -webkit-animation: a0 .5s ease-in .1s 1;
+  animation: a0 .5s ease-in .1s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .255s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(5)::before {
+  -webkit-animation: a3 .5s ease-in .24s 1;
+  animation: a3 .5s ease-in .24s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(7)::before {
-  animation: a2 .5s ease-in .355s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(6)::before {
+  -webkit-animation: a2 .5s ease-in .135s 1;
+  animation: a2 .5s ease-in .135s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .455s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(7)::before {
+  -webkit-animation: a1 .5s ease-in .055s 1;
+  animation: a1 .5s ease-in .055s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(9)::before {
-  animation: a2 .5s ease-in .12s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .465s 1;
+  animation: a0 .5s ease-in .465s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .345s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(9)::before {
+  -webkit-animation: a3 .5s ease-in .09s 1;
+  animation: a3 .5s ease-in .09s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(11)::before {
-  animation: a2 .5s ease-in .25s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(10)::before {
+  -webkit-animation: a2 .5s ease-in .095s 1;
+  animation: a2 .5s ease-in .095s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .295s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(11)::before {
+  -webkit-animation: a1 .5s ease-in .425s 1;
+  animation: a1 .5s ease-in .425s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(13)::before {
-  animation: a2 .5s ease-in .455s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(15)::before {
-  animation: a2 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(17)::before {
-  animation: a2 .5s ease-in .395s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(18)::before {
+.grid-row:nth-child(3) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .3s 1;
   animation: a0 .5s ease-in .3s 1;
 }
 
+.grid-row:nth-child(3) .grid-r:nth-child(13)::before {
+  -webkit-animation: a3 .5s ease-in .11s 1;
+  animation: a3 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(14)::before {
+  -webkit-animation: a2 .5s ease-in .29s 1;
+  animation: a2 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(15)::before {
+  -webkit-animation: a1 .5s ease-in .375s 1;
+  animation: a1 .5s ease-in .375s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .37s 1;
+  animation: a0 .5s ease-in .37s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(17)::before {
+  -webkit-animation: a3 .5s ease-in .455s 1;
+  animation: a3 .5s ease-in .455s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(18)::before {
+  -webkit-animation: a2 .5s ease-in .405s 1;
+  animation: a2 .5s ease-in .405s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(1)::before {
+  -webkit-animation: a0 .5s ease-in .46s 1;
+  animation: a0 .5s ease-in .46s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(2)::before {
+  -webkit-animation: a0 .5s ease-in .23s 1;
+  animation: a0 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(3)::before {
+  -webkit-animation: a0 .5s ease-in .395s 1;
+  animation: a0 .5s ease-in .395s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(4)::before {
+  -webkit-animation: a0 .5s ease-in .445s 1;
+  animation: a0 .5s ease-in .445s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(5)::before {
+  -webkit-animation: a0 .5s ease-in .035s 1;
+  animation: a0 .5s ease-in .035s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(6)::before {
+  -webkit-animation: a0 .5s ease-in .45s 1;
+  animation: a0 .5s ease-in .45s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(7)::before {
+  -webkit-animation: a0 .5s ease-in .12s 1;
+  animation: a0 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .42s 1;
+  animation: a0 .5s ease-in .42s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(9)::before {
+  -webkit-animation: a0 .5s ease-in .115s 1;
+  animation: a0 .5s ease-in .115s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(10)::before {
+  -webkit-animation: a0 .5s ease-in .345s 1;
+  animation: a0 .5s ease-in .345s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(11)::before {
+  -webkit-animation: a0 .5s ease-in .195s 1;
+  animation: a0 .5s ease-in .195s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .365s 1;
+  animation: a0 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(13)::before {
+  -webkit-animation: a0 .5s ease-in .37s 1;
+  animation: a0 .5s ease-in .37s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(14)::before {
+  -webkit-animation: a0 .5s ease-in .135s 1;
+  animation: a0 .5s ease-in .135s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(15)::before {
+  -webkit-animation: a0 .5s ease-in .4s 1;
+  animation: a0 .5s ease-in .4s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .33s 1;
+  animation: a0 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(17)::before {
+  -webkit-animation: a0 .5s ease-in .25s 1;
+  animation: a0 .5s ease-in .25s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(18)::before {
+  -webkit-animation: a0 .5s ease-in .005s 1;
+  animation: a0 .5s ease-in .005s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(1)::before {
+  -webkit-animation: a1 .5s ease-in .39s 1;
+  animation: a1 .5s ease-in .39s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(2)::before {
+  -webkit-animation: a2 .5s ease-in .16s 1;
+  animation: a2 .5s ease-in .16s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(3)::before {
+  -webkit-animation: a3 .5s ease-in .365s 1;
+  animation: a3 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(4)::before {
+  -webkit-animation: a0 .5s ease-in .405s 1;
+  animation: a0 .5s ease-in .405s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(5)::before {
+  -webkit-animation: a1 .5s ease-in .375s 1;
+  animation: a1 .5s ease-in .375s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(6)::before {
+  -webkit-animation: a2 .5s ease-in .295s 1;
+  animation: a2 .5s ease-in .295s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(7)::before {
+  -webkit-animation: a3 .5s ease-in .18s 1;
+  animation: a3 .5s ease-in .18s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .185s 1;
+  animation: a0 .5s ease-in .185s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(9)::before {
+  -webkit-animation: a1 .5s ease-in .065s 1;
+  animation: a1 .5s ease-in .065s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(10)::before {
+  -webkit-animation: a2 .5s ease-in .175s 1;
+  animation: a2 .5s ease-in .175s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(11)::before {
+  -webkit-animation: a3 .5s ease-in .47s 1;
+  animation: a3 .5s ease-in .47s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .11s 1;
+  animation: a0 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(13)::before {
+  -webkit-animation: a1 .5s ease-in .135s 1;
+  animation: a1 .5s ease-in .135s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(14)::before {
+  -webkit-animation: a2 .5s ease-in .305s 1;
+  animation: a2 .5s ease-in .305s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(15)::before {
+  -webkit-animation: a3 .5s ease-in .48s 1;
+  animation: a3 .5s ease-in .48s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .37s 1;
+  animation: a0 .5s ease-in .37s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(17)::before {
+  -webkit-animation: a1 .5s ease-in .18s 1;
+  animation: a1 .5s ease-in .18s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(18)::before {
+  -webkit-animation: a2 .5s ease-in .36s 1;
+  animation: a2 .5s ease-in .36s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(1)::before {
+  -webkit-animation: a2 .5s ease-in .07s 1;
+  animation: a2 .5s ease-in .07s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(2)::before {
+  -webkit-animation: a0 .5s ease-in .245s 1;
+  animation: a0 .5s ease-in .245s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(3)::before {
+  -webkit-animation: a2 .5s ease-in .395s 1;
+  animation: a2 .5s ease-in .395s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(4)::before {
+  -webkit-animation: a0 .5s ease-in .32s 1;
+  animation: a0 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(5)::before {
+  -webkit-animation: a2 .5s ease-in .06s 1;
+  animation: a2 .5s ease-in .06s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(6)::before {
+  -webkit-animation: a0 .5s ease-in .215s 1;
+  animation: a0 .5s ease-in .215s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(7)::before {
+  -webkit-animation: a2 .5s ease-in .15s 1;
+  animation: a2 .5s ease-in .15s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .08s 1;
+  animation: a0 .5s ease-in .08s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(9)::before {
+  -webkit-animation: a2 .5s ease-in .24s 1;
+  animation: a2 .5s ease-in .24s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(10)::before {
+  -webkit-animation: a0 .5s ease-in .175s 1;
+  animation: a0 .5s ease-in .175s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(11)::before {
+  -webkit-animation: a2 .5s ease-in .12s 1;
+  animation: a2 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .285s 1;
+  animation: a0 .5s ease-in .285s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(13)::before {
+  -webkit-animation: a2 .5s ease-in .29s 1;
+  animation: a2 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(14)::before {
+  -webkit-animation: a0 .5s ease-in .185s 1;
+  animation: a0 .5s ease-in .185s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(15)::before {
+  -webkit-animation: a2 .5s ease-in .035s 1;
+  animation: a2 .5s ease-in .035s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .37s 1;
+  animation: a0 .5s ease-in .37s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(17)::before {
+  -webkit-animation: a2 .5s ease-in .415s 1;
+  animation: a2 .5s ease-in .415s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(18)::before {
+  -webkit-animation: a0 .5s ease-in .125s 1;
+  animation: a0 .5s ease-in .125s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(1)::before {
+  -webkit-animation: a3 .5s ease-in .185s 1;
+  animation: a3 .5s ease-in .185s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(2)::before {
+  -webkit-animation: a2 .5s ease-in .225s 1;
+  animation: a2 .5s ease-in .225s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(3)::before {
+  -webkit-animation: a1 .5s ease-in .395s 1;
+  animation: a1 .5s ease-in .395s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(4)::before {
+  -webkit-animation: a0 .5s ease-in .265s 1;
+  animation: a0 .5s ease-in .265s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(5)::before {
+  -webkit-animation: a3 .5s ease-in .095s 1;
+  animation: a3 .5s ease-in .095s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(6)::before {
+  -webkit-animation: a2 .5s ease-in .16s 1;
+  animation: a2 .5s ease-in .16s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(7)::before {
+  -webkit-animation: a1 .5s ease-in .13s 1;
+  animation: a1 .5s ease-in .13s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .235s 1;
+  animation: a0 .5s ease-in .235s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(9)::before {
+  -webkit-animation: a3 .5s ease-in .365s 1;
+  animation: a3 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(10)::before {
+  -webkit-animation: a2 .5s ease-in .41s 1;
+  animation: a2 .5s ease-in .41s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(11)::before {
+  -webkit-animation: a1 .5s ease-in .47s 1;
+  animation: a1 .5s ease-in .47s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .21s 1;
+  animation: a0 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(13)::before {
+  -webkit-animation: a3 .5s ease-in .28s 1;
+  animation: a3 .5s ease-in .28s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(14)::before {
+  -webkit-animation: a2 .5s ease-in .325s 1;
+  animation: a2 .5s ease-in .325s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(15)::before {
+  -webkit-animation: a1 .5s ease-in .43s 1;
+  animation: a1 .5s ease-in .43s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .095s 1;
+  animation: a0 .5s ease-in .095s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(17)::before {
+  -webkit-animation: a3 .5s ease-in .385s 1;
+  animation: a3 .5s ease-in .385s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(18)::before {
+  -webkit-animation: a2 .5s ease-in .325s 1;
+  animation: a2 .5s ease-in .325s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(1)::before {
+  -webkit-animation: a0 .5s ease-in .5s 1;
+  animation: a0 .5s ease-in .5s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(2)::before {
+  -webkit-animation: a0 .5s ease-in .05s 1;
+  animation: a0 .5s ease-in .05s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(3)::before {
+  -webkit-animation: a0 .5s ease-in .32s 1;
+  animation: a0 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(4)::before {
+  -webkit-animation: a0 .5s ease-in .21s 1;
+  animation: a0 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(5)::before {
+  -webkit-animation: a0 .5s ease-in .1s 1;
+  animation: a0 .5s ease-in .1s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(6)::before {
+  -webkit-animation: a0 .5s ease-in .34s 1;
+  animation: a0 .5s ease-in .34s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(7)::before {
+  -webkit-animation: a0 .5s ease-in .05s 1;
+  animation: a0 .5s ease-in .05s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .34s 1;
+  animation: a0 .5s ease-in .34s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(9)::before {
+  -webkit-animation: a0 .5s ease-in .355s 1;
+  animation: a0 .5s ease-in .355s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(10)::before {
+  -webkit-animation: a0 .5s ease-in .41s 1;
+  animation: a0 .5s ease-in .41s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(11)::before {
+  -webkit-animation: a0 .5s ease-in .375s 1;
+  animation: a0 .5s ease-in .375s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .195s 1;
+  animation: a0 .5s ease-in .195s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(13)::before {
+  -webkit-animation: a0 .5s ease-in .425s 1;
+  animation: a0 .5s ease-in .425s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(14)::before {
+  -webkit-animation: a0 .5s ease-in .18s 1;
+  animation: a0 .5s ease-in .18s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(15)::before {
+  -webkit-animation: a0 .5s ease-in .49s 1;
+  animation: a0 .5s ease-in .49s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .055s 1;
+  animation: a0 .5s ease-in .055s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(17)::before {
+  -webkit-animation: a0 .5s ease-in .065s 1;
+  animation: a0 .5s ease-in .065s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(18)::before {
+  -webkit-animation: a0 .5s ease-in .43s 1;
+  animation: a0 .5s ease-in .43s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(1)::before {
+  -webkit-animation: a1 .5s ease-in .455s 1;
+  animation: a1 .5s ease-in .455s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(2)::before {
+  -webkit-animation: a2 .5s ease-in .135s 1;
+  animation: a2 .5s ease-in .135s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(3)::before {
+  -webkit-animation: a3 .5s ease-in .025s 1;
+  animation: a3 .5s ease-in .025s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(4)::before {
+  -webkit-animation: a0 .5s ease-in .335s 1;
+  animation: a0 .5s ease-in .335s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(5)::before {
+  -webkit-animation: a1 .5s ease-in .195s 1;
+  animation: a1 .5s ease-in .195s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(6)::before {
+  -webkit-animation: a2 .5s ease-in .115s 1;
+  animation: a2 .5s ease-in .115s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(7)::before {
+  -webkit-animation: a3 .5s ease-in .215s 1;
+  animation: a3 .5s ease-in .215s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .395s 1;
+  animation: a0 .5s ease-in .395s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(9)::before {
+  -webkit-animation: a1 .5s ease-in .155s 1;
+  animation: a1 .5s ease-in .155s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(10)::before {
+  -webkit-animation: a2 .5s ease-in .145s 1;
+  animation: a2 .5s ease-in .145s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(11)::before {
+  -webkit-animation: a3 .5s ease-in .23s 1;
+  animation: a3 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .105s 1;
+  animation: a0 .5s ease-in .105s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(13)::before {
+  -webkit-animation: a1 .5s ease-in .03s 1;
+  animation: a1 .5s ease-in .03s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(14)::before {
+  -webkit-animation: a2 .5s ease-in .48s 1;
+  animation: a2 .5s ease-in .48s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(15)::before {
+  -webkit-animation: a3 .5s ease-in .075s 1;
+  animation: a3 .5s ease-in .075s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .495s 1;
+  animation: a0 .5s ease-in .495s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(17)::before {
+  -webkit-animation: a1 .5s ease-in .495s 1;
+  animation: a1 .5s ease-in .495s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(18)::before {
+  -webkit-animation: a2 .5s ease-in .005s 1;
+  animation: a2 .5s ease-in .005s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(1)::before {
+  -webkit-animation: a2 .5s ease-in .475s 1;
+  animation: a2 .5s ease-in .475s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(2)::before {
+  -webkit-animation: a0 .5s ease-in .095s 1;
+  animation: a0 .5s ease-in .095s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(3)::before {
+  -webkit-animation: a2 .5s ease-in .015s 1;
+  animation: a2 .5s ease-in .015s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(4)::before {
+  -webkit-animation: a0 .5s ease-in .11s 1;
+  animation: a0 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(5)::before {
+  -webkit-animation: a2 .5s ease-in .005s 1;
+  animation: a2 .5s ease-in .005s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(6)::before {
+  -webkit-animation: a0 .5s ease-in .065s 1;
+  animation: a0 .5s ease-in .065s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(7)::before {
+  -webkit-animation: a2 .5s ease-in .03s 1;
+  animation: a2 .5s ease-in .03s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(8)::before {
+  -webkit-animation: a0 .5s ease-in .27s 1;
+  animation: a0 .5s ease-in .27s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(9)::before {
+  -webkit-animation: a2 .5s ease-in .1s 1;
+  animation: a2 .5s ease-in .1s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(10)::before {
+  -webkit-animation: a0 .5s ease-in .495s 1;
+  animation: a0 .5s ease-in .495s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(11)::before {
+  -webkit-animation: a2 .5s ease-in .035s 1;
+  animation: a2 .5s ease-in .035s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(12)::before {
+  -webkit-animation: a0 .5s ease-in .195s 1;
+  animation: a0 .5s ease-in .195s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(13)::before {
+  -webkit-animation: a2 .5s ease-in .31s 1;
+  animation: a2 .5s ease-in .31s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(14)::before {
+  -webkit-animation: a0 .5s ease-in .5s 1;
+  animation: a0 .5s ease-in .5s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(15)::before {
+  -webkit-animation: a2 .5s ease-in .32s 1;
+  animation: a2 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(16)::before {
+  -webkit-animation: a0 .5s ease-in .33s 1;
+  animation: a0 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(17)::before {
+  -webkit-animation: a2 .5s ease-in .28s 1;
+  animation: a2 .5s ease-in .28s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(18)::before {
+  -webkit-animation: a0 .5s ease-in .155s 1;
+  animation: a0 .5s ease-in .155s 1;
+}
+
 .grid-brand:nth-child(5)::before {
+  -webkit-animation: b1 .5s ease-in .5s 1 !important;
   animation: b1 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(6)::before {
+  -webkit-animation: b2 .5s ease-in .5s 1 !important;
   animation: b2 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(7)::before {
+  -webkit-animation: b3 .5s ease-in .5s 1 !important;
   animation: b3 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(8)::before {
+  -webkit-animation: b4 .5s ease-in .5s 1 !important;
   animation: b4 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(9)::before {
+  -webkit-animation: b5 .5s ease-in .5s 1 !important;
   animation: b5 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(10)::before {
+  -webkit-animation: b6 .5s ease-in .5s 1 !important;
   animation: b6 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(11)::before {
+  -webkit-animation: b7 .5s ease-in .5s 1 !important;
   animation: b7 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(12)::before {
+  -webkit-animation: b8 .5s ease-in .5s 1 !important;
   animation: b8 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(13)::before {
+  -webkit-animation: b9 .5s ease-in .5s 1 !important;
   animation: b9 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(14)::before {
+  -webkit-animation: b10 .5s ease-in .5s 1 !important;
   animation: b10 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(15)::before {
+  -webkit-animation: b11 .5s ease-in .5s 1 !important;
   animation: b11 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(16)::before {
+  -webkit-animation: b12 .5s ease-in .5s 1 !important;
   animation: b12 .5s ease-in .5s 1 !important;
 }
 
 .grid-brand:nth-child(17)::before {
+  -webkit-animation: b13 .5s ease-in .5s 1 !important;
   animation: b13 .5s ease-in .5s 1 !important;
+}
+
+@-webkit-keyframes hover {
+  0% {
+    background: #fff;
+    content: "D";
+  }
+  10% {
+    content: "1";
+  }
+  20% {
+    content: "V";
+  }
+  30% {
+    content: "E";
+  }
+  40% {
+    content: "N";
+  }
+  50% {
+    content: "T";
+  }
+  60% {
+    content: "U";
+  }
+  70% {
+    content: "R";
+  }
+  80% {
+    content: "E";
+  }
+  90% {
+    background: #fff;
+    content: "S";
+  }
+  100% {
+    background: transparent;
+    content: "";
+  }
 }
 
 @keyframes hover {
@@ -876,6 +1112,44 @@
   }
 }
 
+@-webkit-keyframes a0 {
+  0% {
+    background: #fff;
+    content: "W";
+  }
+  10% {
+    content: "I";
+  }
+  20% {
+    content: "N";
+  }
+  30% {
+    content: "K";
+  }
+  40% {
+    content: "R";
+  }
+  50% {
+    content: "Y";
+  }
+  60% {
+    content: "P";
+  }
+  70% {
+    content: "T";
+  }
+  80% {
+    content: "O";
+  }
+  90% {
+    content: ".";
+  }
+  100% {
+    background: #fff;
+    content: "";
+  }
+}
+
 @keyframes a0 {
   0% {
     background: #fff;
@@ -907,6 +1181,44 @@
   }
   90% {
     content: ".";
+  }
+  100% {
+    background: #fff;
+    content: "";
+  }
+}
+
+@-webkit-keyframes a1 {
+  0% {
+    background: #fff;
+    content: "B";
+  }
+  10% {
+    content: "L";
+  }
+  20% {
+    content: "O";
+  }
+  30% {
+    content: "C";
+  }
+  40% {
+    content: "K";
+  }
+  50% {
+    content: "1";
+  }
+  60% {
+    content: "2";
+  }
+  70% {
+    content: "3";
+  }
+  80% {
+    content: "C";
+  }
+  90% {
+    content: "N";
   }
   100% {
     background: #fff;
@@ -952,6 +1264,44 @@
   }
 }
 
+@-webkit-keyframes a2 {
+  0% {
+    background: #fff;
+    content: "D";
+  }
+  10% {
+    content: "A";
+  }
+  20% {
+    content: "P";
+  }
+  30% {
+    content: "P";
+  }
+  40% {
+    content: "R";
+  }
+  50% {
+    content: "A";
+  }
+  60% {
+    content: "N";
+  }
+  70% {
+    content: "K";
+  }
+  80% {
+    content: "D";
+  }
+  90% {
+    content: "1";
+  }
+  100% {
+    background: #fff;
+    content: "";
+  }
+}
+
 @keyframes a2 {
   0% {
     background: #fff;
@@ -983,6 +1333,44 @@
   }
   90% {
     content: "1";
+  }
+  100% {
+    background: #fff;
+    content: "";
+  }
+}
+
+@-webkit-keyframes a3 {
+  0% {
+    background: #fff;
+    content: "C";
+  }
+  10% {
+    content: "H";
+  }
+  20% {
+    content: "A";
+  }
+  30% {
+    content: "I";
+  }
+  40% {
+    content: "N";
+  }
+  50% {
+    content: ".";
+  }
+  60% {
+    content: "N";
+  }
+  70% {
+    content: "E";
+  }
+  80% {
+    content: "W";
+  }
+  90% {
+    content: "S";
   }
   100% {
     background: #fff;
@@ -1028,6 +1416,44 @@
   }
 }
 
+@-webkit-keyframes a4 {
+  0% {
+    background: #fff;
+    content: "C";
+  }
+  10% {
+    content: "R";
+  }
+  20% {
+    content: "Y";
+  }
+  30% {
+    content: "P";
+  }
+  40% {
+    content: "T";
+  }
+  50% {
+    content: "O";
+  }
+  60% {
+    content: "P";
+  }
+  70% {
+    content: "E";
+  }
+  80% {
+    content: "D";
+  }
+  90% {
+    content: "I";
+  }
+  100% {
+    background: #fff;
+    content: "";
+  }
+}
+
 @keyframes a4 {
   0% {
     background: #fff;
@@ -1066,6 +1492,38 @@
   }
 }
 
+@-webkit-keyframes b1 {
+  0% {
+    background: #fff;
+    content: "E";
+  }
+  10% {
+    content: "E";
+  }
+  20% {
+    content: "A";
+  }
+  30% {
+    content: "I";
+  }
+  40% {
+    content: "A";
+  }
+  50% {
+    content: "I";
+  }
+  60% {
+    content: "E";
+  }
+  70% {
+    content: "1";
+  }
+  100% {
+    background: #fff;
+    content: "1";
+  }
+}
+
 @keyframes b1 {
   0% {
     background: #fff;
@@ -1095,6 +1553,38 @@
   100% {
     background: #fff;
     content: "1";
+  }
+}
+
+@-webkit-keyframes b2 {
+  0% {
+    background: #fff;
+    content: "F";
+  }
+  10% {
+    content: "C";
+  }
+  20% {
+    content: "O";
+  }
+  30% {
+    content: "S";
+  }
+  40% {
+    content: "P";
+  }
+  50% {
+    content: "G";
+  }
+  60% {
+    content: "X";
+  }
+  70% {
+    content: ".";
+  }
+  100% {
+    background: #fff;
+    content: ".";
   }
 }
 
@@ -1130,6 +1620,38 @@
   }
 }
 
+@-webkit-keyframes b3 {
+  0% {
+    background: #fff;
+    content: "I";
+  }
+  10% {
+    content: "E";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "T";
+  }
+  40% {
+    content: "P";
+  }
+  50% {
+    content: "I";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "V";
+  }
+  100% {
+    background: #fff;
+    content: "V";
+  }
+}
+
 @keyframes b3 {
   0% {
     background: #fff;
@@ -1159,6 +1681,38 @@
   100% {
     background: #fff;
     content: "V";
+  }
+}
+
+@-webkit-keyframes b4 {
+  0% {
+    background: #fff;
+    content: ".";
+  }
+  10% {
+    content: "N";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "R";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "T";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "E";
+  }
+  100% {
+    background: #fff;
+    content: "E";
   }
 }
 
@@ -1194,6 +1748,38 @@
   }
 }
 
+@-webkit-keyframes b5 {
+  0% {
+    background: #fff;
+    content: ".";
+  }
+  10% {
+    content: "T";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "I";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "A";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "N";
+  }
+  100% {
+    background: #fff;
+    content: "N";
+  }
+}
+
 @keyframes b5 {
   0% {
     background: #fff;
@@ -1223,6 +1809,38 @@
   100% {
     background: #fff;
     content: "N";
+  }
+}
+
+@-webkit-keyframes b6 {
+  0% {
+    background: #fff;
+    content: ".";
+  }
+  10% {
+    content: "R";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "B";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "L";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "T";
+  }
+  100% {
+    background: #fff;
+    content: "T";
   }
 }
 
@@ -1258,6 +1876,38 @@
   }
 }
 
+@-webkit-keyframes b7 {
+  0% {
+    background: #fff;
+    content: ".";
+  }
+  10% {
+    content: "A";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "U";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "A";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "U";
+  }
+  100% {
+    background: #fff;
+    content: "U";
+  }
+}
+
 @keyframes b7 {
   0% {
     background: #fff;
@@ -1287,6 +1937,38 @@
   100% {
     background: #fff;
     content: "U";
+  }
+}
+
+@-webkit-keyframes b8 {
+  0% {
+    background: #fff;
+    content: ".";
+  }
+  10% {
+    content: "L";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "T";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "S";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "R";
+  }
+  100% {
+    background: #fff;
+    content: "R";
   }
 }
 
@@ -1322,6 +2004,38 @@
   }
 }
 
+@-webkit-keyframes b9 {
+  0% {
+    background: #fff;
+    content: ".";
+  }
+  10% {
+    content: "I";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "E";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "S";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "E";
+  }
+  100% {
+    background: #fff;
+    content: "E";
+  }
+}
+
 @keyframes b9 {
   0% {
     background: #fff;
@@ -1351,6 +2065,38 @@
   100% {
     background: #fff;
     content: "E";
+  }
+}
+
+@-webkit-keyframes b10 {
+  0% {
+    background: #fff;
+    content: ".";
+  }
+  10% {
+    content: "Z";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: "D";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "E";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: "S";
+  }
+  100% {
+    background: #fff;
+    content: "S";
   }
 }
 
@@ -1386,6 +2132,38 @@
   }
 }
 
+@-webkit-keyframes b11 {
+  0% {
+    background: #fff;
+    content: ".";
+  }
+  10% {
+    content: "E";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: ".";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "T";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: ".";
+  }
+  100% {
+    background: #fff;
+    content: ".";
+  }
+}
+
 @keyframes b11 {
   0% {
     background: #fff;
@@ -1405,6 +2183,38 @@
   }
   50% {
     content: "T";
+  }
+  60% {
+    content: ".";
+  }
+  70% {
+    content: ".";
+  }
+  100% {
+    background: #fff;
+    content: ".";
+  }
+}
+
+@-webkit-keyframes b12 {
+  0% {
+    background: #fff;
+    content: ".";
+  }
+  10% {
+    content: "D";
+  }
+  20% {
+    content: ".";
+  }
+  30% {
+    content: ".";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "S";
   }
   60% {
     content: ".";
