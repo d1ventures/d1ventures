@@ -34,16 +34,15 @@
 .grid .grid-row .grid-col {
   font-size: .8rem;
   font-weight: 700;
-  height: 1.25rem;
-  line-height: 1.25rem;
+  height: 1rem;
+  line-height: 1rem;
   position: relative;
   text-align: center;
-  width: 1.25rem;
+  width: 1rem;
 }
 
 .grid .grid-row .grid-col:hover::before {
   animation: hover .5s ease-in 0s 2 !important;
-  background: #fff;
   content: "";
   position: absolute;
   z-index: 1;
@@ -51,11 +50,11 @@
 
 .grid-row .grid-brand::before {
   content: "";
-  height: 100%;
+  height: 1rem;
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 1rem;
   z-index: 1;
 }
 
@@ -67,1003 +66,723 @@
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .0666666667s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .15s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .2466666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .41s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .19s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .27s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .1333333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .27s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .0833333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .28s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .0833333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .265s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .3066666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .23s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .2866666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .005s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .1933333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .11s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .0433333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .15s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .1233333333s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .465s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .1366666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .045s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .2633333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .45s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .01s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .34s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .3166666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .18s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .33s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .255s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .1933333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .34s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .19s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .1233333333s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .1266666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .295s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .2566666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .215s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .0166666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .45s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .3166666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .29s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .1566666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .165s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .2733333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .075s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .28s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .465s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .0133333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .465s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .3233333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .335s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .11s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .36s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .2966666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .36s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .2066666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .41s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .3333333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .345s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .1433333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .26s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .2666666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .115s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .2333333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .375s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .03s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .425s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .26s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .265s 1;
 }
 
 .grid-row:nth-child(2) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .19s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .2233333333s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .28s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .27s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .29s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .05s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .3066666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .415s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .2533333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .005s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .1333333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .18s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .11s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .19s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .1233333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .22s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .2266666667s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .1s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .08s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .355s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .2133333333s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .145s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .1566666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .46s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .2266666667s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .08s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .1333333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .425s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .13s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .09s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .03s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .21s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .1733333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .29s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .2366666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .35s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .1666666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .33s 1;
 }
 
 .grid-row:nth-child(3) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .19s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .13s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .1466666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .16s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .2133333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .13s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .0766666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .31s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .1433333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .195s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .09s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .185s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .0133333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .325s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .28s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .07s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .26s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .305s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .3s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .36s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .1266666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .39s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .22s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .115s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .2633333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .19s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .27s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .425s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .19s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .425s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .04s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .175s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .0233333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .29s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .2633333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .055s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .19s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .265s 1;
 }
 
 .grid-row:nth-child(4) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .15s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .0266666667s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .0133333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .46s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .3266666667s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .41s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .05s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .415s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .0066666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .075s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .3s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .435s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .04s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .405s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .3333333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .02s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .2366666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .485s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .1833333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .22s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .0066666667s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .395s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .0633333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .31s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .33s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .335s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .2366666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .495s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(13)::before {
   animation: a1 .5s ease-in .29s 1;
-  background: #fff;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .0366666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .23s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .0633333333s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .065s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .06s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .34s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .2033333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .31s 1;
 }
 
 .grid-row:nth-child(5) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .3233333333s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .2766666667s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .1666666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .335s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .3133333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .045s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .04s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .14s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .1933333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .05s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .0033333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .04s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .12s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .405s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .1766666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .205s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .0966666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .23s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .2366666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .235s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .0733333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .06s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .0766666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .455s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .0566666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .2s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .2s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .345s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .2566666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .055s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .3166666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .175s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .05s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .415s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .2166666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .275s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .2733333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .11s 1;
 }
 
 .grid-row:nth-child(6) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .23s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .3133333333s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .1866666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .295s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .3266666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .065s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .0133333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .005s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .17s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .235s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .11s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .445s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .0766666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .23s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .24s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .065s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .2333333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .3s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .1533333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .225s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .12s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .075s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .2466666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .1s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .1866666667s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .48s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .01s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .445s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .3266666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .01s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .1333333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .44s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .1066666667s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .305s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .0766666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .295s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .25s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .135s 1;
 }
 
 .grid-row:nth-child(7) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .0966666667s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .0233333333s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .06s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .17s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .0066666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .34s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .1166666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .33s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .13s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .465s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .2133333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .485s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .2833333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .215s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .1s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .41s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .2266666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .175s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .12s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .31s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .2466666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .055s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .1s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .3s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .18s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .045s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .01s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .365s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .2166666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .48s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .1933333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .42s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .0333333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .095s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .1566666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .16s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .1233333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .25s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .2033333333s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .31s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .0633333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .135s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .3066666667s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .125s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .28s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .16s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .11s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .04s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .1s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .11s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .1533333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .375s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .0366666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .425s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .2366666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .375s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .17s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .01s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .2533333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .33s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .32s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .18s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .2733333333s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .03s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .0366666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .5s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .2633333333s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .19s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .01s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .26s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .2866666667s 1;
-  background: #fff;
+  animation: a3 .5s ease-in .265s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .1933333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .14s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .32s 1;
-  background: #fff;
+  animation: a1 .5s ease-in .455s 1;
 }
 
 .grid-row:nth-child(9) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .1766666667s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .0933333333s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .2433333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .13s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .2233333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .145s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .1766666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .32s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .2466666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .315s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .13s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .32s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .2566666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .425s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .1766666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .255s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .1366666667s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .355s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .0066666667s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .455s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .22s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .12s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .33s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .345s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .29s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .25s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .33s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .295s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .1433333333s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .455s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .33s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .46s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .22s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .005s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .2833333333s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .46s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .01s 1;
-  background: #fff;
+  animation: a2 .5s ease-in .395s 1;
 }
 
 .grid-row:nth-child(10) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .2466666667s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .0833333333s 1;
-  background: #fff;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .11s 1;
-  background: #fff;
+  animation: a0 .5s ease-in .3s 1;
 }
 
 .grid-brand:nth-child(5)::before {
@@ -1120,6 +839,7 @@
 
 @keyframes hover {
   0% {
+    background: #fff;
     content: "D";
   }
   10% {
@@ -1147,15 +867,18 @@
     content: "E";
   }
   90% {
+    background: #fff;
     content: "S";
   }
   100% {
+    background: transparent;
     content: "";
   }
 }
 
 @keyframes a0 {
   0% {
+    background: #fff;
     content: "W";
   }
   10% {
@@ -1186,12 +909,14 @@
     content: ".";
   }
   100% {
+    background: #fff;
     content: "";
   }
 }
 
 @keyframes a1 {
   0% {
+    background: #fff;
     content: "B";
   }
   10% {
@@ -1222,12 +947,14 @@
     content: "N";
   }
   100% {
+    background: #fff;
     content: "";
   }
 }
 
 @keyframes a2 {
   0% {
+    background: #fff;
     content: "D";
   }
   10% {
@@ -1258,12 +985,14 @@
     content: "1";
   }
   100% {
+    background: #fff;
     content: "";
   }
 }
 
 @keyframes a3 {
   0% {
+    background: #fff;
     content: "C";
   }
   10% {
@@ -1294,12 +1023,14 @@
     content: "S";
   }
   100% {
+    background: #fff;
     content: "";
   }
 }
 
 @keyframes a4 {
   0% {
+    background: #fff;
     content: "C";
   }
   10% {
@@ -1330,6 +1061,7 @@
     content: "I";
   }
   100% {
+    background: #fff;
     content: "";
   }
 }
