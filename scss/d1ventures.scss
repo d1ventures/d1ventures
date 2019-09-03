@@ -41,7 +41,7 @@
   
       &:hover {
         &::before {
-          animation: hover .5s ease-in 0s 2 !important;
+          animation: mousehover .5s ease-in 0s 2 !important;
           content: "";
           position: absolute;
           z-index: 1;
@@ -100,7 +100,7 @@
   }
 }
 
-@keyframes hover {
+@keyframes mousehover {
   0% {
     background: $light-color;
     content: "D";
