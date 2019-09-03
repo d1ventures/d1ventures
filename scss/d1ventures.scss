@@ -74,7 +74,19 @@
     }
   }
 
-  
+  @for $i from 1 through 10 {
+    &:nth-child(#{$i}) {
+      .grid-r {
+        @for $j from 1 through 18 {
+          &:nth-child(#{$j}) {
+            &::before {
+              animation: a#{$j * $i % 4} .5s ease-in #{(random(100)/200)}s 1;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Brand animations
