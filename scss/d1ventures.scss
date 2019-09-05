@@ -4,6 +4,11 @@
 
 /*! D1 Ventures | Inspired by Grant Hummer http://www.granthummer.com/, but written in pure CSS */
 // Layout
+body {
+  background: $dark-color;
+  color: $light-color;
+}
+
 .d1-logo {
   display: block;
   height: 3rem;
@@ -17,7 +22,7 @@
   margin: 10vh auto;
   
   .grid-row {
-    color: $dark-color;
+    color: $light-color;
     display: flex;
     margin: 0 auto;
 
@@ -77,7 +82,7 @@
   @for $i from 1 through 10 {
     &:nth-child(#{$i}) {
       .grid-r {
-        @for $j from 1 through 18 {
+        @for $j from 1 through 25 {
           &:nth-child(#{$j}) {
             &::before {
               animation: a#{$j * $i % 4} .5s ease-in #{(random(100)/200)}s 1;
@@ -102,7 +107,7 @@
 
 @keyframes mousehover {
   0% {
-    background: $light-color;
+    background: $dark-color;
     content: "D";
   }
   10% {
@@ -130,7 +135,7 @@
     content: "E";
   }
   90% {
-    background: $light-color;
+    background: $dark-color;
     content: "S";
   }
   100% {
@@ -141,7 +146,7 @@
 
 @keyframes a0 {
   0% {
-    background: $light-color;
+    background: $dark-color;
     content: "W";
   }
   10% {
@@ -169,17 +174,17 @@
     content: "O";
   }
   90% {
-    content: ".";
+    content: "";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "";
   }
 }
 
 @keyframes a1 {
   0% {
-    background: $light-color;
+    background: $dark-color;
     content: "B";
   }
   10% {
@@ -210,14 +215,14 @@
     content: "N";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "";
   }
 }
 
 @keyframes a2 {
   0% {
-    background: $light-color;
+    background: $dark-color;
     content: "D";
   }
   10% {
@@ -248,14 +253,14 @@
     content: "1";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "";
   }
 }
 
 @keyframes a3 {
   0% {
-    background: $light-color;
+    background: $dark-color;
     content: "C";
   }
   10% {
@@ -271,7 +276,7 @@
     content: "N";
   }
   50% {
-    content: ".";
+    content: "";
   }
   60% {
     content: "N";
@@ -286,14 +291,14 @@
     content: "S";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "";
   }
 }
 
 @keyframes a4 {
   0% {
-    background: $light-color;
+    background: $dark-color;
     content: "C";
   }
   10% {
@@ -324,14 +329,14 @@
     content: "I";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "";
   }
 }
 
 @keyframes b1 {
   0% {
-    background: $light-color;
+    background: $dark-color;
     content: "E";
   }
   10% {
@@ -356,14 +361,14 @@
     content: "1";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "1";
   }
 }
 
 @keyframes b2 {
   0% {
-    background: $light-color;
+    background: $dark-color;
     content: "F";
   }
   10% {
@@ -385,24 +390,24 @@
     content: "X";
   }
   70% {
-    content: ".";
+    content: "";
   }
   100% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
 }
 
 @keyframes b3 {
   0% {
-    background: $light-color;
+    background: $dark-color;
     content: "I";
   }
   10% {
     content: "E";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
     content: "T";
@@ -414,301 +419,301 @@
     content: "I";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
     content: "V";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "V";
   }
 }
 
 @keyframes b4 {
   0% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
   10% {
     content: "N";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
     content: "R";
   }
   40% {
-    content: ".";
+    content: "";
   }
   50% {
     content: "T";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
     content: "E";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "E";
   }
 }
 
 @keyframes b5 {
   0% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
   10% {
     content: "T";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
     content: "I";
   }
   40% {
-    content: ".";
+    content: "";
   }
   50% {
     content: "A";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
     content: "N";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "N";
   }
 }
 
 @keyframes b6 {
   0% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
   10% {
     content: "R";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
     content: "B";
   }
   40% {
-    content: ".";
+    content: "";
   }
   50% {
     content: "L";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
     content: "T";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "T";
   }
 }
 
 @keyframes b7 {
   0% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
   10% {
     content: "A";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
     content: "U";
   }
   40% {
-    content: ".";
+    content: "";
   }
   50% {
     content: "A";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
     content: "U";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "U";
   }
 }
 
 @keyframes b8 {
   0% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
   10% {
     content: "L";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
     content: "T";
   }
   40% {
-    content: ".";
+    content: "";
   }
   50% {
     content: "S";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
     content: "R";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "R";
   }
 }
 
 @keyframes b9 {
   0% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
   10% {
     content: "I";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
     content: "E";
   }
   40% {
-    content: ".";
+    content: "";
   }
   50% {
     content: "S";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
     content: "E";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "E";
   }
 }
 
 @keyframes b10 {
   0% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
   10% {
     content: "Z";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
     content: "D";
   }
   40% {
-    content: ".";
+    content: "";
   }
   50% {
     content: "E";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
     content: "S";
   }
   100% {
-    background: $light-color;
+    background: $dark-color;
     content: "S";
   }
 }
 
 @keyframes b11 {
   0% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
   10% {
     content: "E";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
-    content: ".";
+    content: "";
   }
   40% {
-    content: ".";
+    content: "";
   }
   50% {
     content: "T";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
-    content: ".";
+    content: "";
   }
   100% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
 }
 
 @keyframes b12 {
   0% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
   10% {
     content: "D";
   }
   20% {
-    content: ".";
+    content: "";
   }
   30% {
-    content: ".";
+    content: "";
   }
   40% {
-    content: ".";
+    content: "";
   }
   50% {
     content: "S";
   }
   60% {
-    content: ".";
+    content: "";
   }
   70% {
-    content: ".";
+    content: "";
   }
   100% {
-    background: $light-color;
-    content: ".";
+    background: $dark-color;
+    content: "";
   }
 }
