@@ -300,10 +300,6 @@ a {
   text-decoration: none;
 }
 
-a:focus {
-  box-shadow: 0 0 0 .1rem rgba(250, 100, 41, .2);
-}
-
 a:focus,
 a:hover,
 a:active,
