@@ -7,6 +7,7 @@
 body {
   background: $dark-color;
   color: $light-color;
+  overflow: hidden;
 }
 
 .d1-logo {
@@ -19,13 +20,14 @@ body {
 .grid {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 10vh auto;
   
   .grid-row {
     color: $light-color;
     display: flex;
-    margin: 0 auto;
-
+    justify-content: center;
+    
     &:focus,
     &:hover {
       text-decoration: none;
@@ -41,6 +43,7 @@ body {
       height: 1rem;
       line-height: 1rem;
       text-align: center;
+      overflow: hidden;
       position: relative;
       width: 1rem;
   
@@ -61,11 +64,11 @@ body {
   .grid-brand {
     &::before {
       content: "";
-      height: 1rem;
+      height: 100%;
       left: 0;
       position: absolute;
       top: 0;
-      width: 1rem;
+      width: 100%;
       z-index: 1;
     }
   }
