@@ -6,7 +6,7 @@ block variables
   - var slug = 'index'
   - var parent = 'index'
   - var title = 'D1 Ventures'
-  - var description = ''
+  - var description = 'D1 Ventures - Powering the Future of Open Economy'
 
 if slug == parent
   if slug == 'index'
@@ -29,7 +29,7 @@ html(lang='en')
     meta(property='og:type' content='website')
     meta(property='og:title' content= title)
     meta(property='og:description' content= description)
-    meta(property='og:image' content= domain + '/assets/img/d1ventures-logo.jpg')
+    meta(property='og:image' content= domain + '/assets/img/d1ventures-logo.png')
     if slug != parent
       link(rel='shortcut icon' href='../assets/favicons/favicon.ico')
       link(rel='icon' href='../assets/favicons/apple-touch-icon.png')
