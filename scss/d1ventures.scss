@@ -1,7 +1,7 @@
 // Core variables and mixins
 @import "variables";
 @import "mixins";
-
+@import "spectre";
 /*! D1 Ventures | Inspired by Grant Hummer http://www.granthummer.com/, but written in pure CSS */
 // Layout
 body {
@@ -82,7 +82,7 @@ body {
     }
   }
 
-  @for $i from 1 through 10 {
+  @for $i from 1 through 13 {
     &:nth-child(#{$i}) {
       .grid-r {
         @for $j from 1 through 25 {

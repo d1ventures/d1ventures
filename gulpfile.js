@@ -1,24 +1,15 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var cleancss = require('gulp-clean-css');
-var csscomb = require('gulp-csscomb');
-var rename = require('gulp-rename');
-var autoprefixer = require('gulp-autoprefixer');
-var pug = require('gulp-pug');
-var plumber = require('gulp-plumber');
+const gulp = require("gulp");
+const { parallel } = require("gulp");
+const sass = require('gulp-sass');
+const cleancss = require('gulp-clean-css');
+const csscomb = require('gulp-csscomb');
+const rename = require('gulp-rename');
+const pug = require('gulp-pug');
+const autoprefixer = require('gulp-autoprefixer');
 
-var paths = {
-  scss: './scss/*.scss',
-  pug: './pug/!(_)*.pug'
-};
-
-gulp.task('watch', function() {
-  gulp.watch('./**/*.scss', ['build']);
-  gulp.watch('./**/*.pug', ['web']);
-});
-
-gulp.task('build', function() {
-  gulp.src(paths.scss)
+function css() {
+  return gulp
+    .src('./scss/*.scss')
     .pipe(sass({outputStyle: 'compact', precision: 10})
       .on('error', sass.logError)
     )
@@ -30,15 +21,23 @@ gulp.task('build', function() {
       suffix: '.min'
     }))
     .pipe(gulp.dest('./assets/css'));
-});
+}
 
-gulp.task('web', function() {
-  gulp.src(paths.pug)
-    .pipe(plumber())
+function web() {
+  return gulp
+    .src('./pug/!(_)*.pug')
     .pipe(pug({
       pretty: true
     }))
     .pipe(gulp.dest('./'));
-});
+}
 
-gulp.task('default', ['build']);
+function watch() {
+  gulp.watch('./**/*.scss', css);
+  gulp.watch('./**/*.pug', web);
+}
+
+exports.watch = watch;
+exports.css = css;
+exports.web = web;
+exports.default = parallel(web, css);
