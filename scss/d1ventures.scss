@@ -82,7 +82,7 @@ body {
     }
   }
 
-  @for $i from 1 through 13 {
+  @for $i from 1 through 12 {
     &:nth-child(#{$i}) {
       .grid-r {
         @for $j from 1 through 25 {
