@@ -9,6 +9,17 @@ body {
   color: $light-color;
   text-transform: uppercase;
   overflow: hidden;
+
+  a {
+    &:focus,
+    &:hover {
+      text-decoration: none;
+
+      .grid-s {
+        color: $primary-color;
+      }
+    }
+  }
 }
 
 .d1-logo {
@@ -16,11 +27,6 @@ body {
   height: 3rem;
   margin: 2rem auto 2rem auto;
   width: 3rem;
-}
-
-.d1-reports {
-  margin: 2rem auto;
-  width: 18.5rem;
 }
 
 .grid {
@@ -33,15 +39,6 @@ body {
     color: $light-color;
     display: flex;
     justify-content: center;
-    
-    &:focus,
-    &:hover {
-      text-decoration: none;
-
-      .grid-s {
-        color: $primary-color;
-      }
-    }
 
     .grid-col {
       display: block;
@@ -100,7 +97,7 @@ body {
     }
   }
 
-  @for $i from 1 through 14 {
+  @for $i from 1 through 20 {
     &:nth-child(#{$i}) {
       .grid-r {
         @for $j from 1 through 25 {
