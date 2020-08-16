@@ -7,21 +7,27 @@
 body {
   background: $dark-color;
   color: $light-color;
+  text-transform: uppercase;
   overflow: hidden;
 }
 
 .d1-logo {
   display: block;
   height: 3rem;
-  margin: 10vh auto;
+  margin: 2rem auto 2rem auto;
   width: 3rem;
+}
+
+.d1-reports {
+  margin: 2rem auto;
+  width: 18.5rem;
 }
 
 .grid {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10vh auto;
+  margin: 2rem auto;
   
   .grid-row {
     color: $light-color;
@@ -38,7 +44,9 @@ body {
     }
 
     .grid-col {
-      font-size: .8rem;
+      display: block;
+      flex: 0 1 1rem;
+      font-size: .75rem;
       font-weight: 700;
       height: 1rem;
       line-height: 1rem;
@@ -51,7 +59,12 @@ body {
         &::before {
           animation: mousehover .5s ease-in 0s 2 !important;
           content: "";
+          height: 1rem;
+          left: 50%;
+          margin-left: -.5rem;
           position: absolute;
+          top: 0;
+          width: 1rem;
           z-index: 1;
         }
       }
@@ -64,11 +77,12 @@ body {
   .grid-brand {
     &::before {
       content: "";
-      height: 100%;
-      left: 0;
+      height: 1rem;
+      left: 50%;
+      margin-left: -.5rem;
       position: absolute;
       top: 0;
-      width: 100%;
+      width: 1rem;
       z-index: 1;
     }
   }
@@ -76,13 +90,17 @@ body {
   .grid-col {
     &::before {
       content: "";
+      height: 1rem;
+      left: 0;
       position: absolute;
       text-align: center;
+      top: 0;
+      width: 1rem;
       z-index: 1;
     }
   }
 
-  @for $i from 1 through 12 {
+  @for $i from 1 through 14 {
     &:nth-child(#{$i}) {
       .grid-r {
         @for $j from 1 through 25 {
