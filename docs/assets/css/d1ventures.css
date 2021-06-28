@@ -1074,91 +1074,91 @@ body a:hover .grid-s {
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .09s 1;
+  animation: a1 .5s ease-in .285s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .29s 1;
+  animation: a2 .5s ease-in .265s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .25s 1;
+  animation: a3 .5s ease-in .4s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .23s 1;
+  animation: a0 .5s ease-in .04s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .1s 1;
+  animation: a1 .5s ease-in .405s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .12s 1;
+  animation: a2 .5s ease-in .28s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .14s 1;
+  animation: a3 .5s ease-in .035s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .035s 1;
+  animation: a0 .5s ease-in .135s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .485s 1;
+  animation: a1 .5s ease-in .345s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .1s 1;
+  animation: a2 .5s ease-in .105s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .095s 1;
+  animation: a3 .5s ease-in .125s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .11s 1;
+  animation: a0 .5s ease-in .455s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .08s 1;
+  animation: a1 .5s ease-in .47s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .445s 1;
+  animation: a2 .5s ease-in .135s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .2s 1;
+  animation: a3 .5s ease-in .285s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .355s 1;
+  animation: a0 .5s ease-in .45s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .23s 1;
+  animation: a1 .5s ease-in .245s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .13s 1;
+  animation: a2 .5s ease-in .285s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .195s 1;
+  animation: a3 .5s ease-in .44s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .21s 1;
+  animation: a0 .5s ease-in .345s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(21)::before {
-  animation: a1 .5s ease-in .155s 1;
+  animation: a1 .5s ease-in .18s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .48s 1;
+  animation: a2 .5s ease-in .315s 1;
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(23)::before {
@@ -1166,651 +1166,651 @@ body a:hover .grid-s {
 }
 
 .grid-row:nth-child(1) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .43s 1;
-}
-
-.grid-row:nth-child(1) .grid-r:nth-child(25)::before {
-  animation: a1 .5s ease-in .03s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(1)::before {
-  animation: a2 .5s ease-in .45s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .335s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(3)::before {
-  animation: a2 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .06s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(5)::before {
-  animation: a2 .5s ease-in .32s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .09s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(7)::before {
-  animation: a2 .5s ease-in .39s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .2s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(9)::before {
-  animation: a2 .5s ease-in .49s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .26s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(11)::before {
-  animation: a2 .5s ease-in .28s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(13)::before {
-  animation: a2 .5s ease-in .225s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(15)::before {
-  animation: a2 .5s ease-in .27s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .09s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(17)::before {
-  animation: a2 .5s ease-in .07s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .075s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(19)::before {
-  animation: a2 .5s ease-in .48s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .185s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(21)::before {
-  animation: a2 .5s ease-in .235s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .35s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(23)::before {
-  animation: a2 .5s ease-in .23s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .03s 1;
-}
-
-.grid-row:nth-child(2) .grid-r:nth-child(25)::before {
-  animation: a2 .5s ease-in .24s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(1)::before {
-  animation: a3 .5s ease-in .195s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .165s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(3)::before {
-  animation: a1 .5s ease-in .075s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .345s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(5)::before {
-  animation: a3 .5s ease-in .415s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .235s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(7)::before {
-  animation: a1 .5s ease-in .145s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .205s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(9)::before {
-  animation: a3 .5s ease-in .095s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .47s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(11)::before {
-  animation: a1 .5s ease-in .015s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .03s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(13)::before {
-  animation: a3 .5s ease-in .01s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .04s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(15)::before {
-  animation: a1 .5s ease-in .48s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .02s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(17)::before {
-  animation: a3 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .075s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(19)::before {
-  animation: a1 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .24s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(21)::before {
-  animation: a3 .5s ease-in .165s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .345s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(23)::before {
-  animation: a1 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .04s 1;
-}
-
-.grid-row:nth-child(3) .grid-r:nth-child(25)::before {
-  animation: a3 .5s ease-in .45s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(1)::before {
-  animation: a0 .5s ease-in .02s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(3)::before {
-  animation: a0 .5s ease-in .5s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(5)::before {
-  animation: a0 .5s ease-in .225s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .3s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(7)::before {
-  animation: a0 .5s ease-in .165s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .12s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(9)::before {
-  animation: a0 .5s ease-in .17s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .01s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(11)::before {
-  animation: a0 .5s ease-in .33s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .45s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(13)::before {
-  animation: a0 .5s ease-in .31s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .125s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(15)::before {
-  animation: a0 .5s ease-in .305s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .05s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(17)::before {
-  animation: a0 .5s ease-in .07s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .5s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(19)::before {
-  animation: a0 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .245s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(21)::before {
-  animation: a0 .5s ease-in .26s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .325s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(23)::before {
-  animation: a0 .5s ease-in .035s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .435s 1;
-}
-
-.grid-row:nth-child(4) .grid-r:nth-child(25)::before {
-  animation: a0 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .235s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .27s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .335s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .045s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .145s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .43s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .075s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .245s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .15s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .04s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .315s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .2s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .475s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .28s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .065s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .395s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .15s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(21)::before {
-  animation: a1 .5s ease-in .05s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .085s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(23)::before {
-  animation: a3 .5s ease-in .405s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .025s 1;
-}
-
-.grid-row:nth-child(5) .grid-r:nth-child(25)::before {
-  animation: a1 .5s ease-in .135s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(1)::before {
-  animation: a2 .5s ease-in .06s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .26s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(3)::before {
-  animation: a2 .5s ease-in .475s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(5)::before {
-  animation: a2 .5s ease-in .245s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .16s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(7)::before {
-  animation: a2 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .1s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(9)::before {
-  animation: a2 .5s ease-in .45s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .305s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(11)::before {
-  animation: a2 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .4s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(13)::before {
-  animation: a2 .5s ease-in .455s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .245s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(15)::before {
-  animation: a2 .5s ease-in .37s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .175s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(17)::before {
-  animation: a2 .5s ease-in .35s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .11s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(19)::before {
-  animation: a2 .5s ease-in .5s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .475s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(21)::before {
-  animation: a2 .5s ease-in .48s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .185s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(23)::before {
-  animation: a2 .5s ease-in .14s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .25s 1;
-}
-
-.grid-row:nth-child(6) .grid-r:nth-child(25)::before {
-  animation: a2 .5s ease-in .305s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(1)::before {
-  animation: a3 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .435s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(3)::before {
-  animation: a1 .5s ease-in .385s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .33s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(5)::before {
-  animation: a3 .5s ease-in .105s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .35s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(7)::before {
-  animation: a1 .5s ease-in .205s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(8)::before {
   animation: a0 .5s ease-in .32s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(9)::before {
-  animation: a3 .5s ease-in .06s 1;
+.grid-row:nth-child(1) .grid-r:nth-child(25)::before {
+  animation: a1 .5s ease-in .22s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .15s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(1)::before {
+  animation: a2 .5s ease-in .215s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(11)::before {
-  animation: a1 .5s ease-in .48s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(2)::before {
+  animation: a0 .5s ease-in .165s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .055s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(3)::before {
+  animation: a2 .5s ease-in .43s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(13)::before {
-  animation: a3 .5s ease-in .135s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .19s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .135s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(5)::before {
+  animation: a2 .5s ease-in .115s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(15)::before {
-  animation: a1 .5s ease-in .005s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(6)::before {
+  animation: a0 .5s ease-in .135s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .285s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(7)::before {
+  animation: a2 .5s ease-in .24s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(17)::before {
-  animation: a3 .5s ease-in .355s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .185s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(18)::before {
+.grid-row:nth-child(2) .grid-r:nth-child(9)::before {
+  animation: a2 .5s ease-in .245s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(10)::before {
+  animation: a0 .5s ease-in .195s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(11)::before {
+  animation: a2 .5s ease-in .475s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .34s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(13)::before {
+  animation: a2 .5s ease-in .42s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(14)::before {
+  animation: a0 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(15)::before {
+  animation: a2 .5s ease-in .41s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .065s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(17)::before {
+  animation: a2 .5s ease-in .13s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(18)::before {
+  animation: a0 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(19)::before {
+  animation: a2 .5s ease-in .13s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .43s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(21)::before {
+  animation: a2 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(22)::before {
+  animation: a0 .5s ease-in .195s 1;
+}
+
+.grid-row:nth-child(2) .grid-r:nth-child(23)::before {
   animation: a2 .5s ease-in .345s 1;
 }
 
-.grid-row:nth-child(7) .grid-r:nth-child(19)::before {
-  animation: a1 .5s ease-in .465s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .24s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(21)::before {
-  animation: a3 .5s ease-in .25s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .295s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(23)::before {
-  animation: a1 .5s ease-in .2s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .465s 1;
-}
-
-.grid-row:nth-child(7) .grid-r:nth-child(25)::before {
-  animation: a3 .5s ease-in .03s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(1)::before {
-  animation: a0 .5s ease-in .285s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(3)::before {
+.grid-row:nth-child(2) .grid-r:nth-child(24)::before {
   animation: a0 .5s ease-in .295s 1;
 }
 
-.grid-row:nth-child(8) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .125s 1;
+.grid-row:nth-child(2) .grid-r:nth-child(25)::before {
+  animation: a2 .5s ease-in .11s 1;
 }
 
-.grid-row:nth-child(8) .grid-r:nth-child(5)::before {
-  animation: a0 .5s ease-in .16s 1;
+.grid-row:nth-child(3) .grid-r:nth-child(1)::before {
+  animation: a3 .5s ease-in .005s 1;
 }
 
-.grid-row:nth-child(8) .grid-r:nth-child(6)::before {
+.grid-row:nth-child(3) .grid-r:nth-child(2)::before {
+  animation: a2 .5s ease-in .075s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(3)::before {
+  animation: a1 .5s ease-in .01s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .325s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(5)::before {
+  animation: a3 .5s ease-in .265s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(6)::before {
+  animation: a2 .5s ease-in .065s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(7)::before {
+  animation: a1 .5s ease-in .265s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .295s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(9)::before {
+  animation: a3 .5s ease-in .46s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(10)::before {
+  animation: a2 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(11)::before {
+  animation: a1 .5s ease-in .375s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .035s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(13)::before {
+  animation: a3 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(14)::before {
+  animation: a2 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(15)::before {
+  animation: a1 .5s ease-in .43s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .325s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(17)::before {
+  animation: a3 .5s ease-in .41s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(18)::before {
+  animation: a2 .5s ease-in .13s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(19)::before {
+  animation: a1 .5s ease-in .085s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .315s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(21)::before {
+  animation: a3 .5s ease-in .375s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(22)::before {
+  animation: a2 .5s ease-in .195s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(23)::before {
+  animation: a1 .5s ease-in .095s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .15s 1;
+}
+
+.grid-row:nth-child(3) .grid-r:nth-child(25)::before {
+  animation: a3 .5s ease-in .095s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(1)::before {
+  animation: a0 .5s ease-in .18s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(2)::before {
+  animation: a0 .5s ease-in .15s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(3)::before {
+  animation: a0 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .295s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(5)::before {
+  animation: a0 .5s ease-in .22s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(6)::before {
+  animation: a0 .5s ease-in .43s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(7)::before {
+  animation: a0 .5s ease-in .485s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .315s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(9)::before {
+  animation: a0 .5s ease-in .13s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(10)::before {
+  animation: a0 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(11)::before {
   animation: a0 .5s ease-in .21s 1;
 }
 
-.grid-row:nth-child(8) .grid-r:nth-child(7)::before {
-  animation: a0 .5s ease-in .31s 1;
+.grid-row:nth-child(4) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .37s 1;
 }
 
-.grid-row:nth-child(8) .grid-r:nth-child(8)::before {
+.grid-row:nth-child(4) .grid-r:nth-child(13)::before {
+  animation: a0 .5s ease-in .115s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(14)::before {
+  animation: a0 .5s ease-in .425s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(15)::before {
   animation: a0 .5s ease-in .435s 1;
 }
 
+.grid-row:nth-child(4) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .02s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(17)::before {
+  animation: a0 .5s ease-in .43s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(18)::before {
+  animation: a0 .5s ease-in .305s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(19)::before {
+  animation: a0 .5s ease-in .26s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .135s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(21)::before {
+  animation: a0 .5s ease-in .435s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(22)::before {
+  animation: a0 .5s ease-in .435s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(23)::before {
+  animation: a0 .5s ease-in .31s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .34s 1;
+}
+
+.grid-row:nth-child(4) .grid-r:nth-child(25)::before {
+  animation: a0 .5s ease-in .16s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(1)::before {
+  animation: a1 .5s ease-in .345s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(2)::before {
+  animation: a2 .5s ease-in .135s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(3)::before {
+  animation: a3 .5s ease-in .06s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .255s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(5)::before {
+  animation: a1 .5s ease-in .25s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(6)::before {
+  animation: a2 .5s ease-in .185s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(7)::before {
+  animation: a3 .5s ease-in .475s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .165s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(9)::before {
+  animation: a1 .5s ease-in .09s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(10)::before {
+  animation: a2 .5s ease-in .325s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(11)::before {
+  animation: a3 .5s ease-in .4s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .125s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(13)::before {
+  animation: a1 .5s ease-in .295s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(14)::before {
+  animation: a2 .5s ease-in .035s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(15)::before {
+  animation: a3 .5s ease-in .035s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .255s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(17)::before {
+  animation: a1 .5s ease-in .4s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(18)::before {
+  animation: a2 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(19)::before {
+  animation: a3 .5s ease-in .04s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(21)::before {
+  animation: a1 .5s ease-in .14s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(22)::before {
+  animation: a2 .5s ease-in .165s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(23)::before {
+  animation: a3 .5s ease-in .36s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .1s 1;
+}
+
+.grid-row:nth-child(5) .grid-r:nth-child(25)::before {
+  animation: a1 .5s ease-in .245s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(1)::before {
+  animation: a2 .5s ease-in .345s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(2)::before {
+  animation: a0 .5s ease-in .015s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(3)::before {
+  animation: a2 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(5)::before {
+  animation: a2 .5s ease-in .42s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(6)::before {
+  animation: a0 .5s ease-in .005s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(7)::before {
+  animation: a2 .5s ease-in .345s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .28s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(9)::before {
+  animation: a2 .5s ease-in .105s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(10)::before {
+  animation: a0 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(11)::before {
+  animation: a2 .5s ease-in .375s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .41s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(13)::before {
+  animation: a2 .5s ease-in .16s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(14)::before {
+  animation: a0 .5s ease-in .095s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(15)::before {
+  animation: a2 .5s ease-in .185s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .155s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(17)::before {
+  animation: a2 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(18)::before {
+  animation: a0 .5s ease-in .225s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(19)::before {
+  animation: a2 .5s ease-in .35s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .01s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(21)::before {
+  animation: a2 .5s ease-in .455s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(22)::before {
+  animation: a0 .5s ease-in .49s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(23)::before {
+  animation: a2 .5s ease-in .035s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .46s 1;
+}
+
+.grid-row:nth-child(6) .grid-r:nth-child(25)::before {
+  animation: a2 .5s ease-in .205s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(1)::before {
+  animation: a3 .5s ease-in .44s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(2)::before {
+  animation: a2 .5s ease-in .355s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(3)::before {
+  animation: a1 .5s ease-in .48s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .185s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(5)::before {
+  animation: a3 .5s ease-in .135s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(6)::before {
+  animation: a2 .5s ease-in .045s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(7)::before {
+  animation: a1 .5s ease-in .4s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .48s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(9)::before {
+  animation: a3 .5s ease-in .03s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(10)::before {
+  animation: a2 .5s ease-in .24s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(11)::before {
+  animation: a1 .5s ease-in .225s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .3s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(13)::before {
+  animation: a3 .5s ease-in .325s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(14)::before {
+  animation: a2 .5s ease-in .24s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(15)::before {
+  animation: a1 .5s ease-in .34s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .215s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(17)::before {
+  animation: a3 .5s ease-in .065s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(18)::before {
+  animation: a2 .5s ease-in .355s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(19)::before {
+  animation: a1 .5s ease-in .125s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .44s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(21)::before {
+  animation: a3 .5s ease-in .48s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(22)::before {
+  animation: a2 .5s ease-in .265s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(23)::before {
+  animation: a1 .5s ease-in .41s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .28s 1;
+}
+
+.grid-row:nth-child(7) .grid-r:nth-child(25)::before {
+  animation: a3 .5s ease-in .245s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(1)::before {
+  animation: a0 .5s ease-in .17s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(2)::before {
+  animation: a0 .5s ease-in .16s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(3)::before {
+  animation: a0 .5s ease-in .435s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .305s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(5)::before {
+  animation: a0 .5s ease-in .185s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(6)::before {
+  animation: a0 .5s ease-in .035s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(7)::before {
+  animation: a0 .5s ease-in .085s 1;
+}
+
+.grid-row:nth-child(8) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .17s 1;
+}
+
 .grid-row:nth-child(8) .grid-r:nth-child(9)::before {
-  animation: a0 .5s ease-in .345s 1;
+  animation: a0 .5s ease-in .225s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .025s 1;
+  animation: a0 .5s ease-in .3s 1;
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(11)::before {
@@ -1818,611 +1818,611 @@ body a:hover .grid-s {
 }
 
 .grid-row:nth-child(8) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .295s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(13)::before {
-  animation: a0 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .035s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(15)::before {
-  animation: a0 .5s ease-in .385s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .28s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(17)::before {
-  animation: a0 .5s ease-in .005s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .475s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(19)::before {
-  animation: a0 .5s ease-in .235s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .435s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(21)::before {
-  animation: a0 .5s ease-in .215s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .21s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(23)::before {
-  animation: a0 .5s ease-in .055s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(8) .grid-r:nth-child(25)::before {
-  animation: a0 .5s ease-in .215s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .25s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .14s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .02s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .21s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .4s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .47s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .275s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .02s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .165s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .32s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .495s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .165s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .435s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .45s 1;
-}
-
-.grid-row:nth-child(9) .grid-r:nth-child(16)::before {
   animation: a0 .5s ease-in .455s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .19s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(13)::before {
+  animation: a0 .5s ease-in .045s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .18s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(14)::before {
+  animation: a0 .5s ease-in .135s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .37s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(15)::before {
+  animation: a0 .5s ease-in .045s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .44s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .455s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(21)::before {
-  animation: a1 .5s ease-in .375s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(17)::before {
+  animation: a0 .5s ease-in .21s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .455s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(18)::before {
+  animation: a0 .5s ease-in .485s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(23)::before {
-  animation: a3 .5s ease-in .375s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(19)::before {
+  animation: a0 .5s ease-in .27s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .075s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .405s 1;
 }
 
-.grid-row:nth-child(9) .grid-r:nth-child(25)::before {
-  animation: a1 .5s ease-in .395s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(21)::before {
+  animation: a0 .5s ease-in .01s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(1)::before {
-  animation: a2 .5s ease-in .035s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .225s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(3)::before {
-  animation: a2 .5s ease-in .43s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .16s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(5)::before {
-  animation: a2 .5s ease-in .39s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .45s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(7)::before {
-  animation: a2 .5s ease-in .06s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .47s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(9)::before {
-  animation: a2 .5s ease-in .475s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .41s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(11)::before {
-  animation: a2 .5s ease-in .455s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .395s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(13)::before {
-  animation: a2 .5s ease-in .305s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .38s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(15)::before {
-  animation: a2 .5s ease-in .14s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .465s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(17)::before {
-  animation: a2 .5s ease-in .15s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .065s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(19)::before {
-  animation: a2 .5s ease-in .33s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(21)::before {
-  animation: a2 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .055s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(23)::before {
-  animation: a2 .5s ease-in .435s 1;
-}
-
-.grid-row:nth-child(10) .grid-r:nth-child(24)::before {
+.grid-row:nth-child(8) .grid-r:nth-child(22)::before {
   animation: a0 .5s ease-in .205s 1;
 }
 
-.grid-row:nth-child(10) .grid-r:nth-child(25)::before {
-  animation: a2 .5s ease-in .49s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(1)::before {
-  animation: a3 .5s ease-in .13s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .045s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(3)::before {
-  animation: a1 .5s ease-in .265s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .305s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(5)::before {
-  animation: a3 .5s ease-in .385s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .1s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(7)::before {
-  animation: a1 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .1s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(9)::before {
-  animation: a3 .5s ease-in .12s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .11s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(11)::before {
-  animation: a1 .5s ease-in .085s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .475s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(13)::before {
-  animation: a3 .5s ease-in .15s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(15)::before {
-  animation: a1 .5s ease-in .27s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .17s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(17)::before {
-  animation: a3 .5s ease-in .185s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .31s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(19)::before {
-  animation: a1 .5s ease-in .5s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .38s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(21)::before {
-  animation: a3 .5s ease-in .44s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .065s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(23)::before {
-  animation: a1 .5s ease-in .455s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .325s 1;
-}
-
-.grid-row:nth-child(11) .grid-r:nth-child(25)::before {
-  animation: a3 .5s ease-in .205s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(1)::before {
-  animation: a0 .5s ease-in .435s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .14s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(3)::before {
-  animation: a0 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .315s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(5)::before {
-  animation: a0 .5s ease-in .385s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .015s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(7)::before {
-  animation: a0 .5s ease-in .07s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .12s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(9)::before {
-  animation: a0 .5s ease-in .02s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .215s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(11)::before {
-  animation: a0 .5s ease-in .475s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .2s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(13)::before {
-  animation: a0 .5s ease-in .465s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .35s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(15)::before {
-  animation: a0 .5s ease-in .33s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .34s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(17)::before {
-  animation: a0 .5s ease-in .4s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(19)::before {
-  animation: a0 .5s ease-in .3s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .43s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(21)::before {
-  animation: a0 .5s ease-in .24s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .05s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(23)::before {
-  animation: a0 .5s ease-in .17s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .195s 1;
-}
-
-.grid-row:nth-child(12) .grid-r:nth-child(25)::before {
+.grid-row:nth-child(8) .grid-r:nth-child(23)::before {
   animation: a0 .5s ease-in .185s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .105s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .325s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .235s 1;
+.grid-row:nth-child(8) .grid-r:nth-child(25)::before {
+  animation: a0 .5s ease-in .325s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .45s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(1)::before {
+  animation: a1 .5s ease-in .205s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .28s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(2)::before {
+  animation: a2 .5s ease-in .34s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .46s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(3)::before {
+  animation: a3 .5s ease-in .195s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .215s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .15s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .17s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(5)::before {
+  animation: a1 .5s ease-in .195s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .19s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(6)::before {
+  animation: a2 .5s ease-in .43s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .26s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(7)::before {
+  animation: a3 .5s ease-in .255s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .48s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .355s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .145s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(9)::before {
+  animation: a1 .5s ease-in .17s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .35s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(10)::before {
+  animation: a2 .5s ease-in .38s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .45s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(11)::before {
+  animation: a3 .5s ease-in .27s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .03s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .4s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .12s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(13)::before {
+  animation: a1 .5s ease-in .115s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .475s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(14)::before {
+  animation: a2 .5s ease-in .4s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .29s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(15)::before {
+  animation: a3 .5s ease-in .33s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .445s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .365s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(19)::before {
+.grid-row:nth-child(9) .grid-r:nth-child(17)::before {
+  animation: a1 .5s ease-in .155s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(18)::before {
+  animation: a2 .5s ease-in .02s 1;
+}
+
+.grid-row:nth-child(9) .grid-r:nth-child(19)::before {
   animation: a3 .5s ease-in .085s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .47s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .18s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(21)::before {
-  animation: a1 .5s ease-in .27s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(21)::before {
+  animation: a1 .5s ease-in .405s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .225s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(22)::before {
+  animation: a2 .5s ease-in .24s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(23)::before {
-  animation: a3 .5s ease-in .495s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(23)::before {
+  animation: a3 .5s ease-in .29s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .38s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .13s 1;
 }
 
-.grid-row:nth-child(13) .grid-r:nth-child(25)::before {
-  animation: a1 .5s ease-in .01s 1;
+.grid-row:nth-child(9) .grid-r:nth-child(25)::before {
+  animation: a1 .5s ease-in .365s 1;
 }
 
-.grid-row:nth-child(14) .grid-r:nth-child(1)::before {
-  animation: a2 .5s ease-in .46s 1;
+.grid-row:nth-child(10) .grid-r:nth-child(1)::before {
+  animation: a2 .5s ease-in .4s 1;
 }
 
-.grid-row:nth-child(14) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .285s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(3)::before {
-  animation: a2 .5s ease-in .145s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .09s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(5)::before {
-  animation: a2 .5s ease-in .07s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .145s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(7)::before {
-  animation: a2 .5s ease-in .075s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .36s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(9)::before {
-  animation: a2 .5s ease-in .205s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .02s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(11)::before {
-  animation: a2 .5s ease-in .395s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(12)::before {
+.grid-row:nth-child(10) .grid-r:nth-child(2)::before {
   animation: a0 .5s ease-in .11s 1;
 }
 
+.grid-row:nth-child(10) .grid-r:nth-child(3)::before {
+  animation: a2 .5s ease-in .2s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .385s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(5)::before {
+  animation: a2 .5s ease-in .17s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(6)::before {
+  animation: a0 .5s ease-in .25s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(7)::before {
+  animation: a2 .5s ease-in .36s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .245s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(9)::before {
+  animation: a2 .5s ease-in .37s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(10)::before {
+  animation: a0 .5s ease-in .235s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(11)::before {
+  animation: a2 .5s ease-in .205s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .35s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(13)::before {
+  animation: a2 .5s ease-in .38s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(14)::before {
+  animation: a0 .5s ease-in .345s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(15)::before {
+  animation: a2 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .375s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(17)::before {
+  animation: a2 .5s ease-in .43s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(18)::before {
+  animation: a0 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(19)::before {
+  animation: a2 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .17s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(21)::before {
+  animation: a2 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(22)::before {
+  animation: a0 .5s ease-in .1s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(23)::before {
+  animation: a2 .5s ease-in .35s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .145s 1;
+}
+
+.grid-row:nth-child(10) .grid-r:nth-child(25)::before {
+  animation: a2 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(1)::before {
+  animation: a3 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(2)::before {
+  animation: a2 .5s ease-in .345s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(3)::before {
+  animation: a1 .5s ease-in .455s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(5)::before {
+  animation: a3 .5s ease-in .455s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(6)::before {
+  animation: a2 .5s ease-in .445s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(7)::before {
+  animation: a1 .5s ease-in .06s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .285s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(9)::before {
+  animation: a3 .5s ease-in .06s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(10)::before {
+  animation: a2 .5s ease-in .075s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(11)::before {
+  animation: a1 .5s ease-in .42s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(13)::before {
+  animation: a3 .5s ease-in .395s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(14)::before {
+  animation: a2 .5s ease-in .235s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(15)::before {
+  animation: a1 .5s ease-in .155s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .24s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(17)::before {
+  animation: a3 .5s ease-in .055s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(18)::before {
+  animation: a2 .5s ease-in .13s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(19)::before {
+  animation: a1 .5s ease-in .14s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .18s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(21)::before {
+  animation: a3 .5s ease-in .015s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(22)::before {
+  animation: a2 .5s ease-in .415s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(23)::before {
+  animation: a1 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .165s 1;
+}
+
+.grid-row:nth-child(11) .grid-r:nth-child(25)::before {
+  animation: a3 .5s ease-in .295s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(1)::before {
+  animation: a0 .5s ease-in .015s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(2)::before {
+  animation: a0 .5s ease-in .115s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(3)::before {
+  animation: a0 .5s ease-in .465s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .085s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(5)::before {
+  animation: a0 .5s ease-in .46s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(6)::before {
+  animation: a0 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(7)::before {
+  animation: a0 .5s ease-in .095s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .35s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(9)::before {
+  animation: a0 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(10)::before {
+  animation: a0 .5s ease-in .28s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(11)::before {
+  animation: a0 .5s ease-in .335s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .35s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(13)::before {
+  animation: a0 .5s ease-in .44s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(14)::before {
+  animation: a0 .5s ease-in .135s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(15)::before {
+  animation: a0 .5s ease-in .47s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .245s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(17)::before {
+  animation: a0 .5s ease-in .39s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(18)::before {
+  animation: a0 .5s ease-in .05s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(19)::before {
+  animation: a0 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .22s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(21)::before {
+  animation: a0 .5s ease-in .31s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(22)::before {
+  animation: a0 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(23)::before {
+  animation: a0 .5s ease-in .2s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .41s 1;
+}
+
+.grid-row:nth-child(12) .grid-r:nth-child(25)::before {
+  animation: a0 .5s ease-in .36s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(1)::before {
+  animation: a1 .5s ease-in .035s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(2)::before {
+  animation: a2 .5s ease-in .425s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(3)::before {
+  animation: a3 .5s ease-in .05s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .455s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(5)::before {
+  animation: a1 .5s ease-in .115s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(6)::before {
+  animation: a2 .5s ease-in .31s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(7)::before {
+  animation: a3 .5s ease-in .2s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .48s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(9)::before {
+  animation: a1 .5s ease-in .115s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(10)::before {
+  animation: a2 .5s ease-in .39s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(11)::before {
+  animation: a3 .5s ease-in .155s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .415s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(13)::before {
+  animation: a1 .5s ease-in .295s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(14)::before {
+  animation: a2 .5s ease-in .155s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(15)::before {
+  animation: a3 .5s ease-in .405s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .275s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(17)::before {
+  animation: a1 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(18)::before {
+  animation: a2 .5s ease-in .115s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(19)::before {
+  animation: a3 .5s ease-in .055s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .215s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(21)::before {
+  animation: a1 .5s ease-in .24s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(22)::before {
+  animation: a2 .5s ease-in .205s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(23)::before {
+  animation: a3 .5s ease-in .465s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .45s 1;
+}
+
+.grid-row:nth-child(13) .grid-r:nth-child(25)::before {
+  animation: a1 .5s ease-in .475s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(1)::before {
+  animation: a2 .5s ease-in .34s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(2)::before {
+  animation: a0 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(3)::before {
+  animation: a2 .5s ease-in .495s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .2s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(5)::before {
+  animation: a2 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(6)::before {
+  animation: a0 .5s ease-in .005s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(7)::before {
+  animation: a2 .5s ease-in .49s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .125s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(9)::before {
+  animation: a2 .5s ease-in .185s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(10)::before {
+  animation: a0 .5s ease-in .4s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(11)::before {
+  animation: a2 .5s ease-in .045s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .385s 1;
+}
+
 .grid-row:nth-child(14) .grid-r:nth-child(13)::before {
-  animation: a2 .5s ease-in .395s 1;
+  animation: a2 .5s ease-in .4s 1;
 }
 
 .grid-row:nth-child(14) .grid-r:nth-child(14)::before {
@@ -2430,367 +2430,367 @@ body a:hover .grid-s {
 }
 
 .grid-row:nth-child(14) .grid-r:nth-child(15)::before {
-  animation: a2 .5s ease-in .195s 1;
+  animation: a2 .5s ease-in .37s 1;
 }
 
 .grid-row:nth-child(14) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .01s 1;
+  animation: a0 .5s ease-in .23s 1;
 }
 
 .grid-row:nth-child(14) .grid-r:nth-child(17)::before {
-  animation: a2 .5s ease-in .295s 1;
+  animation: a2 .5s ease-in .335s 1;
 }
 
 .grid-row:nth-child(14) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .14s 1;
+  animation: a0 .5s ease-in .025s 1;
 }
 
 .grid-row:nth-child(14) .grid-r:nth-child(19)::before {
-  animation: a2 .5s ease-in .33s 1;
+  animation: a2 .5s ease-in .13s 1;
 }
 
 .grid-row:nth-child(14) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .12s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(21)::before {
-  animation: a2 .5s ease-in .485s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .135s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(23)::before {
-  animation: a2 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .2s 1;
-}
-
-.grid-row:nth-child(14) .grid-r:nth-child(25)::before {
-  animation: a2 .5s ease-in .42s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(1)::before {
-  animation: a3 .5s ease-in .08s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .4s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(3)::before {
-  animation: a1 .5s ease-in .125s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .35s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(5)::before {
-  animation: a3 .5s ease-in .245s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(7)::before {
-  animation: a1 .5s ease-in .4s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .325s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(9)::before {
-  animation: a3 .5s ease-in .05s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .49s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(11)::before {
-  animation: a1 .5s ease-in .485s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .25s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(13)::before {
-  animation: a3 .5s ease-in .5s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .035s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(15)::before {
-  animation: a1 .5s ease-in .36s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .09s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(17)::before {
-  animation: a3 .5s ease-in .05s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .48s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(19)::before {
-  animation: a1 .5s ease-in .39s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .025s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(21)::before {
-  animation: a3 .5s ease-in .09s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .06s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(23)::before {
-  animation: a1 .5s ease-in .145s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .26s 1;
-}
-
-.grid-row:nth-child(15) .grid-r:nth-child(25)::before {
-  animation: a3 .5s ease-in .045s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(1)::before {
-  animation: a0 .5s ease-in .025s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .195s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(3)::before {
-  animation: a0 .5s ease-in .01s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .4s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(5)::before {
-  animation: a0 .5s ease-in .425s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .485s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(7)::before {
-  animation: a0 .5s ease-in .105s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .45s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(9)::before {
-  animation: a0 .5s ease-in .37s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .265s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(11)::before {
-  animation: a0 .5s ease-in .115s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .495s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(13)::before {
-  animation: a0 .5s ease-in .43s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .47s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(15)::before {
-  animation: a0 .5s ease-in .22s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .255s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(17)::before {
-  animation: a0 .5s ease-in .055s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .16s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(19)::before {
-  animation: a0 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .19s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(21)::before {
-  animation: a0 .5s ease-in .245s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .215s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(23)::before {
-  animation: a0 .5s ease-in .275s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .275s 1;
-}
-
-.grid-row:nth-child(16) .grid-r:nth-child(25)::before {
-  animation: a0 .5s ease-in .105s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(1)::before {
-  animation: a1 .5s ease-in .08s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .105s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(3)::before {
-  animation: a3 .5s ease-in .5s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .22s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(5)::before {
-  animation: a1 .5s ease-in .065s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .275s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(7)::before {
-  animation: a3 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .1s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(9)::before {
-  animation: a1 .5s ease-in .095s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .23s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(11)::before {
-  animation: a3 .5s ease-in .045s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .465s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(13)::before {
-  animation: a1 .5s ease-in .325s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .085s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(15)::before {
-  animation: a3 .5s ease-in .26s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .245s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(17)::before {
-  animation: a1 .5s ease-in .09s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .425s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(19)::before {
-  animation: a3 .5s ease-in .245s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .47s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(21)::before {
-  animation: a1 .5s ease-in .08s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .47s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(23)::before {
-  animation: a3 .5s ease-in .47s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .4s 1;
-}
-
-.grid-row:nth-child(17) .grid-r:nth-child(25)::before {
-  animation: a1 .5s ease-in .245s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(1)::before {
-  animation: a2 .5s ease-in .02s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(3)::before {
-  animation: a2 .5s ease-in .255s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(4)::before {
   animation: a0 .5s ease-in .27s 1;
 }
 
+.grid-row:nth-child(14) .grid-r:nth-child(21)::before {
+  animation: a2 .5s ease-in .34s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(22)::before {
+  animation: a0 .5s ease-in .08s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(23)::before {
+  animation: a2 .5s ease-in .02s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .04s 1;
+}
+
+.grid-row:nth-child(14) .grid-r:nth-child(25)::before {
+  animation: a2 .5s ease-in .105s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(1)::before {
+  animation: a3 .5s ease-in .135s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(2)::before {
+  animation: a2 .5s ease-in .495s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(3)::before {
+  animation: a1 .5s ease-in .43s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .03s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(5)::before {
+  animation: a3 .5s ease-in .28s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(6)::before {
+  animation: a2 .5s ease-in .385s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(7)::before {
+  animation: a1 .5s ease-in .325s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .115s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(9)::before {
+  animation: a3 .5s ease-in .5s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(10)::before {
+  animation: a2 .5s ease-in .425s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(11)::before {
+  animation: a1 .5s ease-in .085s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .455s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(13)::before {
+  animation: a3 .5s ease-in .33s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(14)::before {
+  animation: a2 .5s ease-in .37s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(15)::before {
+  animation: a1 .5s ease-in .45s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(17)::before {
+  animation: a3 .5s ease-in .195s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(18)::before {
+  animation: a2 .5s ease-in .425s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(19)::before {
+  animation: a1 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(21)::before {
+  animation: a3 .5s ease-in .175s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(22)::before {
+  animation: a2 .5s ease-in .31s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(23)::before {
+  animation: a1 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .175s 1;
+}
+
+.grid-row:nth-child(15) .grid-r:nth-child(25)::before {
+  animation: a3 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(1)::before {
+  animation: a0 .5s ease-in .24s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(2)::before {
+  animation: a0 .5s ease-in .18s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(3)::before {
+  animation: a0 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(5)::before {
+  animation: a0 .5s ease-in .36s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(6)::before {
+  animation: a0 .5s ease-in .305s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(7)::before {
+  animation: a0 .5s ease-in .045s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .495s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(9)::before {
+  animation: a0 .5s ease-in .38s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(10)::before {
+  animation: a0 .5s ease-in .01s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(11)::before {
+  animation: a0 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .48s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(13)::before {
+  animation: a0 .5s ease-in .075s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(14)::before {
+  animation: a0 .5s ease-in .355s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(15)::before {
+  animation: a0 .5s ease-in .065s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .335s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(17)::before {
+  animation: a0 .5s ease-in .06s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(18)::before {
+  animation: a0 .5s ease-in .495s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(19)::before {
+  animation: a0 .5s ease-in .285s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .07s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(21)::before {
+  animation: a0 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(22)::before {
+  animation: a0 .5s ease-in .15s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(23)::before {
+  animation: a0 .5s ease-in .43s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(16) .grid-r:nth-child(25)::before {
+  animation: a0 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(1)::before {
+  animation: a1 .5s ease-in .445s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(2)::before {
+  animation: a2 .5s ease-in .085s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(3)::before {
+  animation: a3 .5s ease-in .435s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .185s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(5)::before {
+  animation: a1 .5s ease-in .315s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(6)::before {
+  animation: a2 .5s ease-in .245s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(7)::before {
+  animation: a3 .5s ease-in .495s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .295s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(9)::before {
+  animation: a1 .5s ease-in .415s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(10)::before {
+  animation: a2 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(11)::before {
+  animation: a3 .5s ease-in .015s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .36s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(13)::before {
+  animation: a1 .5s ease-in .03s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(14)::before {
+  animation: a2 .5s ease-in .345s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(15)::before {
+  animation: a3 .5s ease-in .19s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .46s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(17)::before {
+  animation: a1 .5s ease-in .445s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(18)::before {
+  animation: a2 .5s ease-in .295s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(19)::before {
+  animation: a3 .5s ease-in .08s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(21)::before {
+  animation: a1 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(22)::before {
+  animation: a2 .5s ease-in .405s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(23)::before {
+  animation: a3 .5s ease-in .495s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .18s 1;
+}
+
+.grid-row:nth-child(17) .grid-r:nth-child(25)::before {
+  animation: a1 .5s ease-in .355s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(1)::before {
+  animation: a2 .5s ease-in .14s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(2)::before {
+  animation: a0 .5s ease-in .19s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(3)::before {
+  animation: a2 .5s ease-in .005s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .14s 1;
+}
+
 .grid-row:nth-child(18) .grid-r:nth-child(5)::before {
-  animation: a2 .5s ease-in .49s 1;
+  animation: a2 .5s ease-in .225s 1;
 }
 
 .grid-row:nth-child(18) .grid-r:nth-child(6)::before {
@@ -2798,279 +2798,279 @@ body a:hover .grid-s {
 }
 
 .grid-row:nth-child(18) .grid-r:nth-child(7)::before {
-  animation: a2 .5s ease-in .125s 1;
+  animation: a2 .5s ease-in .085s 1;
 }
 
 .grid-row:nth-child(18) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .315s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(9)::before {
-  animation: a2 .5s ease-in .295s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .215s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(11)::before {
-  animation: a2 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .36s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(13)::before {
-  animation: a2 .5s ease-in .29s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .36s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(15)::before {
-  animation: a2 .5s ease-in .275s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .32s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(17)::before {
-  animation: a2 .5s ease-in .155s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .335s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(19)::before {
-  animation: a2 .5s ease-in .08s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .04s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(21)::before {
-  animation: a2 .5s ease-in .41s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .13s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(23)::before {
-  animation: a2 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .31s 1;
-}
-
-.grid-row:nth-child(18) .grid-r:nth-child(25)::before {
-  animation: a2 .5s ease-in .16s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(1)::before {
-  animation: a3 .5s ease-in .365s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(2)::before {
-  animation: a2 .5s ease-in .32s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(3)::before {
-  animation: a1 .5s ease-in .24s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .32s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(5)::before {
-  animation: a3 .5s ease-in .415s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(6)::before {
-  animation: a2 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(7)::before {
-  animation: a1 .5s ease-in .01s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .275s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(9)::before {
-  animation: a3 .5s ease-in .115s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(10)::before {
-  animation: a2 .5s ease-in .14s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(11)::before {
-  animation: a1 .5s ease-in .095s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .175s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(13)::before {
-  animation: a3 .5s ease-in .175s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(14)::before {
-  animation: a2 .5s ease-in .395s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(15)::before {
-  animation: a1 .5s ease-in .365s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .255s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(17)::before {
-  animation: a3 .5s ease-in .255s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(18)::before {
-  animation: a2 .5s ease-in .04s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(19)::before {
-  animation: a1 .5s ease-in .495s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .225s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(21)::before {
-  animation: a3 .5s ease-in .145s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(22)::before {
-  animation: a2 .5s ease-in .145s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(23)::before {
-  animation: a1 .5s ease-in .295s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .23s 1;
-}
-
-.grid-row:nth-child(19) .grid-r:nth-child(25)::before {
-  animation: a3 .5s ease-in .015s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(1)::before {
-  animation: a0 .5s ease-in .165s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(2)::before {
-  animation: a0 .5s ease-in .28s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(3)::before {
-  animation: a0 .5s ease-in .275s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(4)::before {
-  animation: a0 .5s ease-in .29s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(5)::before {
-  animation: a0 .5s ease-in .02s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(6)::before {
-  animation: a0 .5s ease-in .425s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(7)::before {
-  animation: a0 .5s ease-in .265s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(8)::before {
-  animation: a0 .5s ease-in .375s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(9)::before {
-  animation: a0 .5s ease-in .46s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(10)::before {
-  animation: a0 .5s ease-in .395s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(11)::before {
-  animation: a0 .5s ease-in .065s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(12)::before {
-  animation: a0 .5s ease-in .075s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(13)::before {
-  animation: a0 .5s ease-in .43s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(14)::before {
-  animation: a0 .5s ease-in .28s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(15)::before {
-  animation: a0 .5s ease-in .5s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(16)::before {
-  animation: a0 .5s ease-in .195s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(17)::before {
-  animation: a0 .5s ease-in .18s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(18)::before {
-  animation: a0 .5s ease-in .1s 1;
-}
-
-.grid-row:nth-child(20) .grid-r:nth-child(19)::before {
   animation: a0 .5s ease-in .38s 1;
 }
 
+.grid-row:nth-child(18) .grid-r:nth-child(9)::before {
+  animation: a2 .5s ease-in .435s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(10)::before {
+  animation: a0 .5s ease-in .445s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(11)::before {
+  animation: a2 .5s ease-in .2s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .37s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(13)::before {
+  animation: a2 .5s ease-in .47s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(14)::before {
+  animation: a0 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(15)::before {
+  animation: a2 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .445s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(17)::before {
+  animation: a2 .5s ease-in .19s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(18)::before {
+  animation: a0 .5s ease-in .085s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(19)::before {
+  animation: a2 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .205s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(21)::before {
+  animation: a2 .5s ease-in .275s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(22)::before {
+  animation: a0 .5s ease-in .175s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(23)::before {
+  animation: a2 .5s ease-in .29s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .125s 1;
+}
+
+.grid-row:nth-child(18) .grid-r:nth-child(25)::before {
+  animation: a2 .5s ease-in .47s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(1)::before {
+  animation: a3 .5s ease-in .23s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(2)::before {
+  animation: a2 .5s ease-in .36s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(3)::before {
+  animation: a1 .5s ease-in .1s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .22s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(5)::before {
+  animation: a3 .5s ease-in .3s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(6)::before {
+  animation: a2 .5s ease-in .055s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(7)::before {
+  animation: a1 .5s ease-in .095s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .13s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(9)::before {
+  animation: a3 .5s ease-in .315s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(10)::before {
+  animation: a2 .5s ease-in .265s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(11)::before {
+  animation: a1 .5s ease-in .335s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(13)::before {
+  animation: a3 .5s ease-in .35s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(14)::before {
+  animation: a2 .5s ease-in .055s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(15)::before {
+  animation: a1 .5s ease-in .395s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .38s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(17)::before {
+  animation: a3 .5s ease-in .365s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(18)::before {
+  animation: a2 .5s ease-in .205s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(19)::before {
+  animation: a1 .5s ease-in .21s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(20)::before {
+  animation: a0 .5s ease-in .36s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(21)::before {
+  animation: a3 .5s ease-in .32s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(22)::before {
+  animation: a2 .5s ease-in .485s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(23)::before {
+  animation: a1 .5s ease-in .135s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(24)::before {
+  animation: a0 .5s ease-in .4s 1;
+}
+
+.grid-row:nth-child(19) .grid-r:nth-child(25)::before {
+  animation: a3 .5s ease-in .425s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(1)::before {
+  animation: a0 .5s ease-in .455s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(2)::before {
+  animation: a0 .5s ease-in .095s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(3)::before {
+  animation: a0 .5s ease-in .04s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(4)::before {
+  animation: a0 .5s ease-in .26s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(5)::before {
+  animation: a0 .5s ease-in .115s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(6)::before {
+  animation: a0 .5s ease-in .35s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(7)::before {
+  animation: a0 .5s ease-in .47s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(8)::before {
+  animation: a0 .5s ease-in .34s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(9)::before {
+  animation: a0 .5s ease-in .465s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(10)::before {
+  animation: a0 .5s ease-in .125s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(11)::before {
+  animation: a0 .5s ease-in .375s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(12)::before {
+  animation: a0 .5s ease-in .12s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(13)::before {
+  animation: a0 .5s ease-in .11s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(14)::before {
+  animation: a0 .5s ease-in .31s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(15)::before {
+  animation: a0 .5s ease-in .385s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(16)::before {
+  animation: a0 .5s ease-in .245s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(17)::before {
+  animation: a0 .5s ease-in .395s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(18)::before {
+  animation: a0 .5s ease-in .225s 1;
+}
+
+.grid-row:nth-child(20) .grid-r:nth-child(19)::before {
+  animation: a0 .5s ease-in .19s 1;
+}
+
 .grid-row:nth-child(20) .grid-r:nth-child(20)::before {
-  animation: a0 .5s ease-in .035s 1;
+  animation: a0 .5s ease-in .07s 1;
 }
 
 .grid-row:nth-child(20) .grid-r:nth-child(21)::before {
-  animation: a0 .5s ease-in .17s 1;
+  animation: a0 .5s ease-in .165s 1;
 }
 
 .grid-row:nth-child(20) .grid-r:nth-child(22)::before {
-  animation: a0 .5s ease-in .2s 1;
+  animation: a0 .5s ease-in .255s 1;
 }
 
 .grid-row:nth-child(20) .grid-r:nth-child(23)::before {
-  animation: a0 .5s ease-in .09s 1;
+  animation: a0 .5s ease-in .04s 1;
 }
 
 .grid-row:nth-child(20) .grid-r:nth-child(24)::before {
-  animation: a0 .5s ease-in .405s 1;
+  animation: a0 .5s ease-in .445s 1;
 }
 
 .grid-row:nth-child(20) .grid-r:nth-child(25)::before {
-  animation: a0 .5s ease-in .335s 1;
+  animation: a0 .5s ease-in .09s 1;
 }
 
 .grid-brand:nth-child(5)::before {
