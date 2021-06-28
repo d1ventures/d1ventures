@@ -304,12 +304,8 @@ a:focus,
 a:hover,
 a:active,
 a.active {
-  color: #e6e5e5;
+  color: #fa6429;
   text-decoration: underline;
-}
-
-a:visited {
-  color: white;
 }
 
 h1,
