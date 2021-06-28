@@ -15,12 +15,12 @@ function css() {
     )
     .pipe(autoprefixer())
     .pipe(csscomb())
-    .pipe(gulp.dest('./assets/css'))
+    .pipe(gulp.dest('./public/assets/css'))
     .pipe(cleancss())
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('./assets/css'));
+    .pipe(gulp.dest('./public/assets/css'));
 }
 
 function web() {
@@ -29,7 +29,7 @@ function web() {
     .pipe(pug({
       pretty: true
     }))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./public'));
 }
 
 function watch() {

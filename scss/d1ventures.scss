@@ -1,14 +1,20 @@
 // Core variables and mixins
 @import "variables";
 @import "mixins";
-@import "spectre";
+// Reset and dependencies
+@import "normalize";
+@import "base";
+// Utility classes
+@import "animations";
+@import "utilities";
 /*! D1 Ventures | Inspired by Grant Hummer http://www.granthummer.com/, but written in pure CSS */
 // Layout
 body {
   background: $dark-color;
   color: $light-color;
-  text-transform: uppercase;
+  font-family: $mono-font-family;
   overflow-x: hidden;
+  text-transform: uppercase;
 
   a {
     &:focus,
@@ -30,6 +36,7 @@ body {
 }
 
 .grid {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,11 +45,11 @@ body {
   .grid-row {
     color: $light-color;
     display: flex;
-    justify-content: center;
+    width: 25rem;
 
     .grid-col {
       display: block;
-      flex: 0 1 1rem;
+      flex: 0 0 1rem;
       font-size: .75rem;
       font-weight: 700;
       height: 1rem;
@@ -65,6 +72,25 @@ body {
           z-index: 1;
         }
       }
+    }
+  }
+
+  .grid-list {
+    margin-top: 1rem;
+
+    .grid-list-title {
+      flex: 0 0 6rem;
+      font-size: .7rem;
+      font-weight: 900;
+      padding-right: 1rem;
+      text-align: left;
+      width: 6rem;
+    }
+  
+    .grid-list-subtitle {
+      flex: 1 1 auto;
+      font-size: .6rem;
+      text-align: left;
     }
   }
 }
