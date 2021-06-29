@@ -45,11 +45,12 @@ body {
   .grid-row {
     color: $light-color;
     display: flex;
-    width: 25rem;
+    max-width: 25rem;
+    width: 100%;
 
     .grid-col {
       display: block;
-      flex: 0 0 1rem;
+      flex: 0 1 1rem;
       font-size: .75rem;
       font-weight: 700;
       height: 1rem;
@@ -88,8 +89,17 @@ body {
     }
   
     .grid-list-subtitle {
-      flex: 1 1 auto;
+      flex: 1 1 13rem;
       font-size: .6rem;
+      padding-right: 1rem;
+      text-align: left;
+    }
+
+    .grid-list-report {
+      flex: 1 1 21rem;
+      font-size: .7rem;
+      font-weight: 900;
+      padding-right: 1rem;
       text-align: left;
     }
   }
