@@ -93,6 +93,14 @@ body {
       font-size: .6rem;
       padding-right: 1rem;
       text-align: left;
+
+      p {
+        margin: 0 0 .5rem 0;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
     }
 
     .grid-list-report {
@@ -102,6 +110,15 @@ body {
       padding-right: 1rem;
       text-align: left;
     }
+  }
+
+  .label {
+    background: rgba($primary-color, .25);
+    border: .05rem solid rgba($primary-color, .5);
+    color: rgba($light-color, .75);
+    font-size: .55rem;
+    padding: .05rem .15rem;
+    margin: 0 .2rem .2rem 0;
   }
 }
 
