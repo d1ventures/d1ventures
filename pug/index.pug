@@ -403,9 +403,55 @@ block content
           .grid-col
           .grid-col
           .grid-col
-        
+
+        //- Filters
+        input.filter-tag.filter-tag-all(type="radio" id="tag-all" name="filter-radio" hidden checked)
+        input.filter-tag.filter-tag-ethereum(type="radio" id="tag-ethereum" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-polkadot(type="radio" id="tag-polkadot" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-arweave(type="radio" id="tag-arweave" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-near(type="radio" id="tag-near" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-layer1(type="radio" id="tag-layer1" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-layer2(type="radio" id="tag-layer2" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-defi(type="radio" id="tag-defi" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-dex(type="radio" id="tag-dex" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-nft(type="radio" id="tag-nft" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-dweb(type="radio" id="tag-dweb" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-tooling(type="radio" id="tag-tooling" name="filter-radio" hidden)
+        input.filter-tag.filter-tag-oracle(type="radio" id="tag-oracle" name="filter-radio" hidden)
+        .grid-row.grid-list
+          .grid-col
+          .grid-col
+          .grid-col
+          .grid-list-filters
+            label.label-tag.label-tag-all(for="tag-all") All
+              small 36
+            label.label-tag.label-tag-ethereum(for="tag-ethereum") Ethereum
+              small 9
+            label.label-tag.label-tag-polkadot(for="tag-polkadot") Polkadot
+              small 10
+            label.label-tag.label-tag-arweave(for="tag-arweave") Arweave
+              small 5
+            label.label-tag.label-tag-near(for="tag-near") NEAR
+              small 4
+            label.label-tag.label-tag-layer1(for="tag-layer1") Layer1
+              small 3
+            label.label-tag.label-tag-layer2(for="tag-layer2") Layer2
+              small 2
+            label.label-tag.label-tag-defi(for="tag-defi") DeFi
+              small 7
+            label.label-tag.label-tag-dex(for="tag-dex") DEX
+              small 5
+            label.label-tag.label-tag-nft(for="tag-nft") NFT
+              small 11
+            label.label-tag.label-tag-dweb(for="tag-dweb") dWeb
+              small 6
+            label.label-tag.label-tag-tooling(for="tag-tooling") Tooling
+              small 6
+            label.label-tag.label-tag-oracle(for="tag-oracle") Oracle
+              small 1
+
         //- Akash
-        .grid-row.grid-list.filter-dweb.filter-tooling
+        .grid-row.grid-list.grid-project.filter-dweb.filter-tooling
           .grid-col
           .grid-col
           .grid-col
@@ -417,7 +463,7 @@ block content
               span.label.label-dweb dWeb
               span.label.label-tooling Tooling
         //- Alethea AI
-        .grid-row.grid-list.filter-nft
+        .grid-row.grid-list.grid-project.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -428,7 +474,7 @@ block content
             p
               span.label.label-nft NFT
         //- ARDrive
-        .grid-row.grid-list.filter-arweave.filter-dweb
+        .grid-row.grid-list.grid-project.filter-arweave.filter-dweb
           .grid-col
           .grid-col
           .grid-col
@@ -440,7 +486,7 @@ block content
               span.label.label-arweave Arweave
               span.label.label-dweb dWeb
         //- Arweave
-        .grid-row.grid-list.filter-layer1.filter-dweb
+        .grid-row.grid-list.grid-project.filter-layer1.filter-dweb
           .grid-col
           .grid-col
           .grid-col
@@ -452,7 +498,7 @@ block content
               span.label.label-layer1 Layer1
               span.label.label-dweb dWeb
         //- Connext
-        .grid-row.grid-list.filter-layer2.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-layer2.filter-ethereum
           .grid-col
           .grid-col
           .grid-col
@@ -464,7 +510,7 @@ block content
               span.label.label-layer2 Layer2
               span.label.label-ethereum Ethereum
         //- DeversiFi
-        .grid-row.grid-list.filter-layer2.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-layer2.filter-defi.filter-ethereum
           .grid-col
           .grid-col
           .grid-col
@@ -477,7 +523,7 @@ block content
               span.label.label-defi DeFi
               span.label.label-ethereum Ethereum
         //- dHedge
-        .grid-row.grid-list.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-defi.filter-ethereum
           .grid-col
           .grid-col
           .grid-col
@@ -489,7 +535,7 @@ block content
               span.label.label-defi DeFi
               span.label.label-ethereum Ethereum
         //- DODO
-        .grid-row.grid-list.filter-dex.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-dex.filter-defi.filter-ethereum
           .grid-col
           .grid-col
           .grid-col
@@ -502,7 +548,7 @@ block content
               span.label.label-defi DeFi
               span.label.label-ethereum Ethereum
         //- Efinity
-        .grid-row.grid-list.filter-nft.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-nft.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -514,7 +560,7 @@ block content
               span.label.label-nft NFT
               span.label.label-polkadot Polkadot
         //- everFinance
-        .grid-row.grid-list.filter-defi.filter-arweave
+        .grid-row.grid-list.grid-project.filter-defi.filter-arweave
           .grid-col
           .grid-col
           .grid-col
@@ -526,7 +572,7 @@ block content
               span.label.label-defi DeFi
               span.label.label-arweave Arweave
         //- Gelato
-        .grid-row.grid-list.filter-defi.filter-tooling.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-defi.filter-tooling.filter-ethereum
           .grid-col
           .grid-col
           .grid-col
@@ -539,7 +585,7 @@ block content
               span.label.label-tooling Tooling
               span.label.label-ethereum Ethereum
         //- Handshake
-        .grid-row.grid-list.filter-dweb
+        .grid-row.grid-list.grid-project.filter-dweb
           .grid-col
           .grid-col
           .grid-col
@@ -550,7 +596,7 @@ block content
             p
               span.label.label-dweb dWeb
         //- Harem
-        .grid-row.grid-list.filter-nft
+        .grid-row.grid-list.grid-project.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -561,7 +607,7 @@ block content
             p
               span.label.label-nft NFT
         //- Kyve
-        .grid-row.grid-list.filter-arweave.filter-dweb
+        .grid-row.grid-list.grid-project.filter-arweave.filter-dweb
           .grid-col
           .grid-col
           .grid-col
@@ -573,7 +619,7 @@ block content
               span.label.label-arweave Arweave
               span.label.label-dweb dWeb
         //- Litentry
-        .grid-row.grid-list.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -584,7 +630,7 @@ block content
             p
               span.label.label-polkadot Polkadot
         //- MCDEX
-        .grid-row.grid-list.filter-dex.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-dex.filter-defi.filter-ethereum
           .grid-col
           .grid-col
           .grid-col
@@ -597,7 +643,7 @@ block content
               span.label.label-defi DeFi
               span.label.label-ethereum Ethereum
         //- Mintbase
-        .grid-row.grid-list.filter-nft.filter-near
+        .grid-row.grid-list.grid-project.filter-nft.filter-near
           .grid-col
           .grid-col
           .grid-col
@@ -609,7 +655,7 @@ block content
               span.label.label-nft NFT
               span.label.label-near NEAR
         //- Moonbeam Network
-        .grid-row.grid-list.filter-polkadot.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-polkadot.filter-ethereum
           .grid-col
           .grid-col
           .grid-col
@@ -621,7 +667,7 @@ block content
               span.label.label-polkadot Polkadot
               span.label.label-ethereum Ethereum
         //- NEAR
-        .grid-row.grid-list.filter-layer1.filter-near
+        .grid-row.grid-list.grid-project.filter-layer1.filter-near
           .grid-col
           .grid-col
           .grid-col
@@ -633,7 +679,7 @@ block content
               span.label.label-layer1 Layer1
               span.label.label-near NEAR
         //- Octopus Network
-        .grid-row.grid-list.filter-tooling.filter-near.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-tooling.filter-near.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -646,7 +692,7 @@ block content
               span.label.label-near NEAR
               span.label.label-polkadot Polkadot
         //- Paras
-        .grid-row.grid-list.filter-nft.filter-near
+        .grid-row.grid-list.grid-project.filter-nft.filter-near
           .grid-col
           .grid-col
           .grid-col
@@ -658,7 +704,7 @@ block content
               span.label.label-nft NFT
               span.label.label-near NEAR
         //- Pendle
-        .grid-row.grid-list.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-defi.filter-ethereum
           .grid-col
           .grid-col
           .grid-col
@@ -670,7 +716,7 @@ block content
               span.label.label-defi DeFi
               span.label.label-ethereum Ethereum
         //- Pianity
-        .grid-row.grid-list.filter-nft.filter-arweave
+        .grid-row.grid-list.grid-project.filter-nft.filter-arweave
           .grid-col
           .grid-col
           .grid-col
@@ -682,7 +728,7 @@ block content
               span.label.label-nft NFT
               span.label.label-arweave Arweave
         //- Polkadot
-        .grid-row.grid-list.filter-layer1.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-layer1.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -694,7 +740,7 @@ block content
               span.label.label-layer1 Layer1
               span.label.label-polkadot Polkadot
         //- Polywrap
-        .grid-row.grid-list.filter-tooling.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-tooling.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -706,7 +752,7 @@ block content
               span.label.label-tooling Tooling
               span.label.label-polkadot Polkadot
         //- Rarible
-        .grid-row.grid-list.filter-nft
+        .grid-row.grid-list.grid-project.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -717,7 +763,7 @@ block content
             p
               span.label.label-nft NFT
         //- RMRK.app
-        .grid-row.grid-list.filter-nft.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-nft.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -729,7 +775,7 @@ block content
               span.label.label-nft NFT
               span.label.label-polkadot Polkadot
         //- Slingshot
-        .grid-row.grid-list.filter-dex.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-dex.filter-ethereum
           .grid-col
           .grid-col
           .grid-col
@@ -741,7 +787,7 @@ block content
               span.label.label-dex DEX
               span.label.label-ethereum Ethereum
         //- SubQuery
-        .grid-row.grid-list.filter-tooling.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-tooling.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -753,7 +799,7 @@ block content
               span.label.label-tooling Tooling
               span.label.label-polkadot Polkadot
         //- The Graph
-        .grid-row.grid-list.filter-dweb.filter-tooling
+        .grid-row.grid-list.grid-project.filter-dweb.filter-tooling
           .grid-col
           .grid-col
           .grid-col
@@ -765,7 +811,7 @@ block content
               span.label.label-dweb dWeb
               span.label.label-tooling Tooling
         //- Unifty
-        .grid-row.grid-list.filter-nft
+        .grid-row.grid-list.grid-project.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -776,7 +822,7 @@ block content
             p
               span.label.label-nft NFT
         //- Verto
-        .grid-row.grid-list.filter-dex.filter-arweave
+        .grid-row.grid-list.grid-project.filter-dex.filter-arweave
           .grid-col
           .grid-col
           .grid-col
@@ -788,7 +834,7 @@ block content
               span.label.label-dex DEX
               span.label.label-arweave Arweave
         //- Whale
-        .grid-row.grid-list.filter-nft
+        .grid-row.grid-list.grid-project.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -799,7 +845,7 @@ block content
             p
               span.label.label-nft NFT
         //- Wilder World
-        .grid-row.grid-list.filter-nft
+        .grid-row.grid-list.grid-project.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -810,7 +856,7 @@ block content
             p
               span.label.label-nft NFT
         //- Zeitgeist
-        .grid-row.grid-list.filter-oracle.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-oracle.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -822,7 +868,7 @@ block content
               span.label.label-oracle Oracle
               span.label.label-polkadot Polkadot
         //- Zenlink
-        .grid-row.grid-list.filter-dex.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-dex.filter-polkadot
           .grid-col
           .grid-col
           .grid-col

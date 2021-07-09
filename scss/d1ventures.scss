@@ -121,6 +121,230 @@ body {
   }
 }
 
+// Filters
+.grid {
+  .grid-list {
+    &.grid-project {
+      display: none;
+    }
+  }
+}
+
+.grid-list-filters {
+  flex: 1 1 21rem;
+  font-size: .6rem;
+  padding-right: 1rem;
+  text-align: left;
+
+  .label-tag {
+    border-bottom: .05rem solid transparent;
+    display: inline-block;
+    margin: 0 .4rem .4rem 0;
+
+    small {
+      margin-left: .2rem;
+      opacity: .5;
+    }
+  }
+}
+
+.filter-tag {
+  &.filter-tag-all {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-all {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.grid-project {
+          display: flex;
+        }
+      }
+    }
+  }
+  
+  &.filter-tag-ethereum {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-ethereum {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-ethereum {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-polkadot {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-polkadot {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-polkadot {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-arweave {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-arweave {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-arweave {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-near {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-near {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-near {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-layer1 {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-layer1 {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-layer1 {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-layer2 {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-layer2 {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-layer2 {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-defi {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-defi {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-defi {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-dex {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-dex {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-dex {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-nft {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-nft {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-nft {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-dweb {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-dweb {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-dweb {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-tooling {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-tooling {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-tooling {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  &.filter-tag-oracle {
+    &:checked {
+      & ~ .grid-list {
+        .label-tag-oracle {
+          border-color: $primary-color;
+          color: $primary-color;
+        }
+
+        &.filter-oracle {
+          display: flex;
+        }
+      }
+    }
+  }
+}
+
 // Animations
 .grid-row {
   .grid-brand {

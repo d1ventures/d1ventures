@@ -419,7 +419,40 @@
             <div class="grid-col"></div>
             <div class="grid-col"></div>
           </div>
-          <div class="grid-row grid-list filter-dweb filter-tooling">
+          <input class="filter-tag filter-tag-all" type="radio" id="tag-all" name="filter-radio" hidden checked>
+          <input class="filter-tag filter-tag-ethereum" type="radio" id="tag-ethereum" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-polkadot" type="radio" id="tag-polkadot" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-arweave" type="radio" id="tag-arweave" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-near" type="radio" id="tag-near" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-layer1" type="radio" id="tag-layer1" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-layer2" type="radio" id="tag-layer2" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-defi" type="radio" id="tag-defi" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-dex" type="radio" id="tag-dex" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-nft" type="radio" id="tag-nft" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-dweb" type="radio" id="tag-dweb" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-tooling" type="radio" id="tag-tooling" name="filter-radio" hidden>
+          <input class="filter-tag filter-tag-oracle" type="radio" id="tag-oracle" name="filter-radio" hidden>
+          <div class="grid-row grid-list">
+            <div class="grid-col"></div>
+            <div class="grid-col"></div>
+            <div class="grid-col"></div>
+            <div class="grid-list-filters">
+              <label class="label-tag label-tag-all" for="tag-all">All<small>36</small></label>
+              <label class="label-tag label-tag-ethereum" for="tag-ethereum">Ethereum<small>9</small></label>
+              <label class="label-tag label-tag-polkadot" for="tag-polkadot">Polkadot<small>10</small></label>
+              <label class="label-tag label-tag-arweave" for="tag-arweave">Arweave<small>5</small></label>
+              <label class="label-tag label-tag-near" for="tag-near">NEAR<small>4</small></label>
+              <label class="label-tag label-tag-layer1" for="tag-layer1">Layer1<small>3</small></label>
+              <label class="label-tag label-tag-layer2" for="tag-layer2">Layer2<small>2</small></label>
+              <label class="label-tag label-tag-defi" for="tag-defi">DeFi<small>7</small></label>
+              <label class="label-tag label-tag-dex" for="tag-dex">DEX<small>5</small></label>
+              <label class="label-tag label-tag-nft" for="tag-nft">NFT<small>11</small></label>
+              <label class="label-tag label-tag-dweb" for="tag-dweb">dWeb<small>6</small></label>
+              <label class="label-tag label-tag-tooling" for="tag-tooling">Tooling<small>6</small></label>
+              <label class="label-tag label-tag-oracle" for="tag-oracle">Oracle<small>1</small></label>
+            </div>
+          </div>
+          <div class="grid-row grid-list grid-project filter-dweb filter-tooling">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -429,7 +462,7 @@
               <p><span class="label label-dweb">dWeb</span><span class="label label-tooling">Tooling</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft">
+          <div class="grid-row grid-list grid-project filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -439,7 +472,7 @@
               <p><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-arweave filter-dweb">
+          <div class="grid-row grid-list grid-project filter-arweave filter-dweb">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -449,7 +482,7 @@
               <p><span class="label label-arweave">Arweave</span><span class="label label-dweb">dWeb</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-layer1 filter-dweb">
+          <div class="grid-row grid-list grid-project filter-layer1 filter-dweb">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -459,7 +492,7 @@
               <p><span class="label label-layer1">Layer1</span><span class="label label-dweb">dWeb</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-layer2 filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-layer2 filter-ethereum">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -469,7 +502,7 @@
               <p><span class="label label-layer2">Layer2</span><span class="label label-ethereum">Ethereum</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-layer2 filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-layer2 filter-defi filter-ethereum">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -479,7 +512,7 @@
               <p><span class="label label-layer2">Layer2</span><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-defi filter-ethereum">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -489,7 +522,7 @@
               <p><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-dex filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-dex filter-defi filter-ethereum">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -499,7 +532,7 @@
               <p><span class="label label-dex">DEX</span><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-nft filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -509,7 +542,7 @@
               <p><span class="label label-nft">NFT</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-defi filter-arweave">
+          <div class="grid-row grid-list grid-project filter-defi filter-arweave">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -519,7 +552,7 @@
               <p><span class="label label-defi">DeFi</span><span class="label label-arweave">Arweave</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-defi filter-tooling filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-defi filter-tooling filter-ethereum">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -529,7 +562,7 @@
               <p><span class="label label-defi">DeFi</span><span class="label label-tooling">Tooling</span><span class="label label-ethereum">Ethereum</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-dweb">
+          <div class="grid-row grid-list grid-project filter-dweb">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -539,7 +572,7 @@
               <p><span class="label label-dweb">dWeb</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft">
+          <div class="grid-row grid-list grid-project filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -549,7 +582,7 @@
               <p><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-arweave filter-dweb">
+          <div class="grid-row grid-list grid-project filter-arweave filter-dweb">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -559,7 +592,7 @@
               <p><span class="label label-arweave">Arweave</span><span class="label label-dweb">dWeb</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -569,7 +602,7 @@
               <p><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-dex filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-dex filter-defi filter-ethereum">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -579,7 +612,7 @@
               <p><span class="label label-dex">DEX</span><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft filter-near">
+          <div class="grid-row grid-list grid-project filter-nft filter-near">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -589,7 +622,7 @@
               <p><span class="label label-nft">NFT</span><span class="label label-near">NEAR</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-polkadot filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-polkadot filter-ethereum">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -599,7 +632,7 @@
               <p><span class="label label-polkadot">Polkadot</span><span class="label label-ethereum">Ethereum</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-layer1 filter-near">
+          <div class="grid-row grid-list grid-project filter-layer1 filter-near">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -609,7 +642,7 @@
               <p><span class="label label-layer1">Layer1</span><span class="label label-near">NEAR</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-tooling filter-near filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-tooling filter-near filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -619,7 +652,7 @@
               <p><span class="label label-tooling">Tooling</span><span class="label label-near">NEAR</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft filter-near">
+          <div class="grid-row grid-list grid-project filter-nft filter-near">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -629,7 +662,7 @@
               <p><span class="label label-nft">NFT</span><span class="label label-near">NEAR</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-defi filter-ethereum">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -639,7 +672,7 @@
               <p><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft filter-arweave">
+          <div class="grid-row grid-list grid-project filter-nft filter-arweave">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -649,7 +682,7 @@
               <p><span class="label label-nft">NFT</span><span class="label label-arweave">Arweave</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-layer1 filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-layer1 filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -659,7 +692,7 @@
               <p><span class="label label-layer1">Layer1</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-tooling filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-tooling filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -669,7 +702,7 @@
               <p><span class="label label-tooling">Tooling</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft">
+          <div class="grid-row grid-list grid-project filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -679,7 +712,7 @@
               <p><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-nft filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -689,7 +722,7 @@
               <p><span class="label label-nft">NFT</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-dex filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-dex filter-ethereum">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -699,7 +732,7 @@
               <p><span class="label label-dex">DEX</span><span class="label label-ethereum">Ethereum</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-tooling filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-tooling filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -709,7 +742,7 @@
               <p><span class="label label-tooling">Tooling</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-dweb filter-tooling">
+          <div class="grid-row grid-list grid-project filter-dweb filter-tooling">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -719,7 +752,7 @@
               <p><span class="label label-dweb">dWeb</span><span class="label label-tooling">Tooling</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft">
+          <div class="grid-row grid-list grid-project filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -729,7 +762,7 @@
               <p><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-dex filter-arweave">
+          <div class="grid-row grid-list grid-project filter-dex filter-arweave">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -739,7 +772,7 @@
               <p><span class="label label-dex">DEX</span><span class="label label-arweave">Arweave</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft">
+          <div class="grid-row grid-list grid-project filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -749,7 +782,7 @@
               <p><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-nft">
+          <div class="grid-row grid-list grid-project filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -759,7 +792,7 @@
               <p><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-oracle filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-oracle filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
@@ -769,7 +802,7 @@
               <p><span class="label label-oracle">Oracle</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list filter-dex filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-dex filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
