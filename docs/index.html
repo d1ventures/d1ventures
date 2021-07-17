@@ -420,7 +420,6 @@
             <div class="grid-col"></div>
           </div>
           <input class="filter-tag filter-tag-all" type="radio" id="tag-all" name="filter-radio" hidden checked>
-          <input class="filter-tag filter-tag-ethereum" type="radio" id="tag-ethereum" name="filter-radio" hidden>
           <input class="filter-tag filter-tag-polkadot" type="radio" id="tag-polkadot" name="filter-radio" hidden>
           <input class="filter-tag filter-tag-arweave" type="radio" id="tag-arweave" name="filter-radio" hidden>
           <input class="filter-tag filter-tag-near" type="radio" id="tag-near" name="filter-radio" hidden>
@@ -431,25 +430,32 @@
           <input class="filter-tag filter-tag-nft" type="radio" id="tag-nft" name="filter-radio" hidden>
           <input class="filter-tag filter-tag-dweb" type="radio" id="tag-dweb" name="filter-radio" hidden>
           <input class="filter-tag filter-tag-tooling" type="radio" id="tag-tooling" name="filter-radio" hidden>
-          <input class="filter-tag filter-tag-oracle" type="radio" id="tag-oracle" name="filter-radio" hidden>
           <div class="grid-row grid-list">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-list-filters">
-              <label class="label-tag label-tag-all" for="tag-all">All<small>36</small></label>
-              <label class="label-tag label-tag-ethereum" for="tag-ethereum">Ethereum<small>9</small></label>
-              <label class="label-tag label-tag-polkadot" for="tag-polkadot">Polkadot<small>10</small></label>
+              <label class="label-tag label-tag-all" for="tag-all">All<small>37</small></label>
+              <label class="label-tag label-tag-polkadot" for="tag-polkadot">Polkadot<small>8</small></label>
               <label class="label-tag label-tag-arweave" for="tag-arweave">Arweave<small>5</small></label>
               <label class="label-tag label-tag-near" for="tag-near">NEAR<small>4</small></label>
               <label class="label-tag label-tag-layer1" for="tag-layer1">Layer1<small>3</small></label>
               <label class="label-tag label-tag-layer2" for="tag-layer2">Layer2<small>2</small></label>
-              <label class="label-tag label-tag-defi" for="tag-defi">DeFi<small>7</small></label>
+              <label class="label-tag label-tag-defi" for="tag-defi">DeFi<small>10</small></label>
               <label class="label-tag label-tag-dex" for="tag-dex">DEX<small>5</small></label>
               <label class="label-tag label-tag-nft" for="tag-nft">NFT<small>11</small></label>
               <label class="label-tag label-tag-dweb" for="tag-dweb">dWeb<small>6</small></label>
               <label class="label-tag label-tag-tooling" for="tag-tooling">Tooling<small>6</small></label>
-              <label class="label-tag label-tag-oracle" for="tag-oracle">Oracle<small>1</small></label>
+            </div>
+          </div>
+          <div class="grid-row grid-list grid-project filter-polkadot filter-defi">
+            <div class="grid-col"></div>
+            <div class="grid-col"></div>
+            <div class="grid-col"></div>
+            <div class="grid-col">·</div><a class="grid-list-title" href="https://acala.network/" target="_blank" rel="noopener" title="Acala">Acala</a>
+            <div class="grid-list-subtitle">
+              <p>A Polkadot parachain offering DeFi products and a layer 1 infrastructure for DeFi</p>
+              <p><span class="label label-polkadot">Polkadot</span><span class="label label-defi">DeFi</span></p>
             </div>
           </div>
           <div class="grid-row grid-list grid-project filter-dweb filter-tooling">
@@ -492,74 +498,74 @@
               <p><span class="label label-layer1">Layer1</span><span class="label label-dweb">dWeb</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-layer2 filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-layer2">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://connext.network/" target="_blank" rel="noopener" title="Connext">Connext</a>
             <div class="grid-list-subtitle">
               <p>A cross-chain liquidity network that allows transfers between EVM-compatible chains and L2 systems</p>
-              <p><span class="label label-layer2">Layer2</span><span class="label label-ethereum">Ethereum</span></p>
+              <p><span class="label label-layer2">Layer2</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-layer2 filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-layer2 filter-defi">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://www.deversifi.com/" target="_blank" rel="noopener" title="DeversiFi">DeversiFi</a>
             <div class="grid-list-subtitle">
               <p>A self-custodial exchange built on Starkware L2</p>
-              <p><span class="label label-layer2">Layer2</span><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
+              <p><span class="label label-layer2">Layer2</span><span class="label label-defi">DeFi</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-defi">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://www.dhedge.org/" target="_blank" rel="noopener" title="dHedge">dHedge</a>
             <div class="grid-list-subtitle">
               <p>A non-custodial mimetic trading platform for synthetics</p>
-              <p><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
+              <p><span class="label label-defi">DeFi</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-dex filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-dex filter-defi">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://dodoex.io/" target="_blank" rel="noopener" title="DODO">DODO</a>
             <div class="grid-list-subtitle">
               <p>A multi-chain liquidity protocol powered by the Proactive Market Making (PMM) algorithm</p>
-              <p><span class="label label-dex">DEX</span><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
+              <p><span class="label label-dex">DEX</span><span class="label label-defi">DeFi</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-nft filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://efinity.io/" target="_blank" rel="noopener" title="Efinity">Efinity</a>
             <div class="grid-list-subtitle">
               <p>A cross-chain platform built with Substrate</p>
-              <p><span class="label label-nft">NFT</span><span class="label label-polkadot">Polkadot</span></p>
+              <p><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-defi filter-arweave">
+          <div class="grid-row grid-list grid-project filter-arweave filter-defi">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://ever.finance/" target="_blank" rel="noopener" title="everFinance">everFinance</a>
             <div class="grid-list-subtitle">
               <p>A cross-chain payment and settlement protocol built on Arweave</p>
-              <p><span class="label label-defi">DeFi</span><span class="label label-arweave">Arweave</span></p>
+              <p><span class="label label-arweave">Arweave</span><span class="label label-defi">DeFi</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-defi filter-tooling filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-defi filter-tooling">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://www.gelato.network/" target="_blank" rel="noopener" title="Gelato">Gelato</a>
             <div class="grid-list-subtitle">
               <p>An automation platform for EVM smart contracts</p>
-              <p><span class="label label-defi">DeFi</span><span class="label label-tooling">Tooling</span><span class="label label-ethereum">Ethereum</span></p>
+              <p><span class="label label-defi">DeFi</span><span class="label label-tooling">Tooling</span></p>
             </div>
           </div>
           <div class="grid-row grid-list grid-project filter-dweb">
@@ -602,34 +608,34 @@
               <p><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-dex filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-dex filter-defi">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://mcdex.io/" target="_blank" rel="noopener" title="MCDEX">MCDEX</a>
             <div class="grid-list-subtitle">
               <p>A decentralized derivatives trading platform</p>
-              <p><span class="label label-dex">DEX</span><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
+              <p><span class="label label-dex">DEX</span><span class="label label-defi">DeFi</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-nft filter-near">
+          <div class="grid-row grid-list grid-project filter-near filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://www.mintbase.io/" target="_blank" rel="noopener" title="Mintbase">Mintbase</a>
             <div class="grid-list-subtitle">
               <p>A platform for NFT minting and marketplace, primarily on NEAR</p>
-              <p><span class="label label-nft">NFT</span><span class="label label-near">NEAR</span></p>
+              <p><span class="label label-near">NEAR</span><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-polkadot filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://moonbeam.network/" target="_blank" rel="noopener" title="Moonbeam Network">Moonbeam Network</a>
             <div class="grid-list-subtitle">
               <p>An EVM compatible parachain on Polkadot and Kusama</p>
-              <p><span class="label label-polkadot">Polkadot</span><span class="label label-ethereum">Ethereum</span></p>
+              <p><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
           <div class="grid-row grid-list grid-project filter-layer1 filter-near">
@@ -642,44 +648,44 @@
               <p><span class="label label-layer1">Layer1</span><span class="label label-near">NEAR</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-tooling filter-near filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-near filter-tooling">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://oct.network/" target="_blank" rel="noopener" title="Octopus Network">Octopus Network</a>
             <div class="grid-list-subtitle">
               <p>A multi-chain network that provide leased security and interoperability to Web3 applications</p>
-              <p><span class="label label-tooling">Tooling</span><span class="label label-near">NEAR</span><span class="label label-polkadot">Polkadot</span></p>
+              <p><span class="label label-near">NEAR</span><span class="label label-tooling">Tooling</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-nft filter-near">
+          <div class="grid-row grid-list grid-project filter-near filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://paras.id/" target="_blank" rel="noopener" title="Paras">Paras</a>
             <div class="grid-list-subtitle">
               <p>A digital art card marketplace built on NEAR</p>
-              <p><span class="label label-nft">NFT</span><span class="label label-near">NEAR</span></p>
+              <p><span class="label label-near">NEAR</span><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-defi filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-defi">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://pendle.finance/" target="_blank" rel="noopener" title="Pendle">Pendle</a>
             <div class="grid-list-subtitle">
               <p>A protocol that enables the trading of tokenized future yield on an AMM system</p>
-              <p><span class="label label-defi">DeFi</span><span class="label label-ethereum">Ethereum</span></p>
+              <p><span class="label label-defi">DeFi</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-nft filter-arweave">
+          <div class="grid-row grid-list grid-project filter-arweave filter-nft">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://pianity.com/" target="_blank" rel="noopener" title="Pianity">Pianity</a>
             <div class="grid-list-subtitle">
               <p>An audiovisual NFT platform on Arweave</p>
-              <p><span class="label label-nft">NFT</span><span class="label label-arweave">Arweave</span></p>
+              <p><span class="label label-arweave">Arweave</span><span class="label label-nft">NFT</span></p>
             </div>
           </div>
           <div class="grid-row grid-list grid-project filter-layer1 filter-polkadot">
@@ -692,14 +698,14 @@
               <p><span class="label label-layer1">Layer1</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-tooling filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-tooling">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://polywrap.io/" target="_blank" rel="noopener" title="Polywrap">Polywrap</a>
             <div class="grid-list-subtitle">
               <p>A WebAssembly standard for integrating Web3 protocols into applications</p>
-              <p><span class="label label-tooling">Tooling</span><span class="label label-polkadot">Polkadot</span></p>
+              <p><span class="label label-tooling">Tooling</span></p>
             </div>
           </div>
           <div class="grid-row grid-list grid-project filter-nft">
@@ -722,34 +728,34 @@
               <p><span class="label label-nft">NFT</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-dex filter-ethereum">
+          <div class="grid-row grid-list grid-project filter-dex filter-defi">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://slingshot.finance/" target="_blank" rel="noopener" title="Slingshot">Slingshot</a>
             <div class="grid-list-subtitle">
               <p>A liquity aggregator giving traders the best trade execution price</p>
-              <p><span class="label label-dex">DEX</span><span class="label label-ethereum">Ethereum</span></p>
+              <p><span class="label label-dex">DEX</span><span class="label label-defi">DeFi</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-tooling filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-polkadot filter-tooling">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://subquery.network/" target="_blank" rel="noopener" title="SubQuery">SubQuery</a>
             <div class="grid-list-subtitle">
               <p>A Substrate based query service platform using GraphQL</p>
-              <p><span class="label label-tooling">Tooling</span><span class="label label-polkadot">Polkadot</span></p>
+              <p><span class="label label-polkadot">Polkadot</span><span class="label label-tooling">Tooling</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-dweb filter-tooling">
+          <div class="grid-row grid-list grid-project filter-tooling filter-dweb">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://thegraph.com/" target="_blank" rel="noopener" title="The Graph">The Graph</a>
             <div class="grid-list-subtitle">
               <p>An indexing protocol for querying multi-chain networks like Ethereum and IPFS</p>
-              <p><span class="label label-dweb">dWeb</span><span class="label label-tooling">Tooling</span></p>
+              <p><span class="label label-tooling">Tooling</span><span class="label label-dweb">dWeb</span></p>
             </div>
           </div>
           <div class="grid-row grid-list grid-project filter-nft">
@@ -762,14 +768,14 @@
               <p><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-dex filter-arweave">
+          <div class="grid-row grid-list grid-project filter-arweave filter-dex">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://verto.exchange/" target="_blank" rel="noopener" title="Verto">Verto</a>
             <div class="grid-list-subtitle">
               <p>Decentralized trading protocol on Arweave</p>
-              <p><span class="label label-dex">DEX</span><span class="label label-arweave">Arweave</span></p>
+              <p><span class="label label-arweave">Arweave</span><span class="label label-dex">DEX</span></p>
             </div>
           </div>
           <div class="grid-row grid-list grid-project filter-nft">
@@ -792,14 +798,14 @@
               <p><span class="label label-nft">NFT</span></p>
             </div>
           </div>
-          <div class="grid-row grid-list grid-project filter-oracle filter-polkadot">
+          <div class="grid-row grid-list grid-project filter-defi filter-polkadot">
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col"></div>
             <div class="grid-col">·</div><a class="grid-list-title" href="https://zeitgeist.pm/" target="_blank" rel="noopener" title="Zeitgeist">Zeitgeist</a>
             <div class="grid-list-subtitle">
               <p>A prediction markets platform using futarchy as governance system on Kusama</p>
-              <p><span class="label label-oracle">Oracle</span><span class="label label-polkadot">Polkadot</span></p>
+              <p><span class="label label-defi">DeFi</span><span class="label label-polkadot">Polkadot</span></p>
             </div>
           </div>
           <div class="grid-row grid-list grid-project filter-dex filter-polkadot">

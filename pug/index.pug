@@ -406,7 +406,6 @@ block content
 
         //- Filters
         input.filter-tag.filter-tag-all(type="radio" id="tag-all" name="filter-radio" hidden checked)
-        input.filter-tag.filter-tag-ethereum(type="radio" id="tag-ethereum" name="filter-radio" hidden)
         input.filter-tag.filter-tag-polkadot(type="radio" id="tag-polkadot" name="filter-radio" hidden)
         input.filter-tag.filter-tag-arweave(type="radio" id="tag-arweave" name="filter-radio" hidden)
         input.filter-tag.filter-tag-near(type="radio" id="tag-near" name="filter-radio" hidden)
@@ -417,18 +416,15 @@ block content
         input.filter-tag.filter-tag-nft(type="radio" id="tag-nft" name="filter-radio" hidden)
         input.filter-tag.filter-tag-dweb(type="radio" id="tag-dweb" name="filter-radio" hidden)
         input.filter-tag.filter-tag-tooling(type="radio" id="tag-tooling" name="filter-radio" hidden)
-        input.filter-tag.filter-tag-oracle(type="radio" id="tag-oracle" name="filter-radio" hidden)
         .grid-row.grid-list
           .grid-col
           .grid-col
           .grid-col
           .grid-list-filters
             label.label-tag.label-tag-all(for="tag-all") All
-              small 36
-            label.label-tag.label-tag-ethereum(for="tag-ethereum") Ethereum
-              small 9
+              small 37
             label.label-tag.label-tag-polkadot(for="tag-polkadot") Polkadot
-              small 10
+              small 8
             label.label-tag.label-tag-arweave(for="tag-arweave") Arweave
               small 5
             label.label-tag.label-tag-near(for="tag-near") NEAR
@@ -438,7 +434,7 @@ block content
             label.label-tag.label-tag-layer2(for="tag-layer2") Layer2
               small 2
             label.label-tag.label-tag-defi(for="tag-defi") DeFi
-              small 7
+              small 10
             label.label-tag.label-tag-dex(for="tag-dex") DEX
               small 5
             label.label-tag.label-tag-nft(for="tag-nft") NFT
@@ -447,9 +443,19 @@ block content
               small 6
             label.label-tag.label-tag-tooling(for="tag-tooling") Tooling
               small 6
-            label.label-tag.label-tag-oracle(for="tag-oracle") Oracle
-              small 1
 
+        //- Acala
+        .grid-row.grid-list.grid-project.filter-polkadot.filter-defi
+          .grid-col
+          .grid-col
+          .grid-col
+          .grid-col ·
+          a.grid-list-title(href="https://acala.network/" target="_blank" rel="noopener" title="Acala") Acala
+          .grid-list-subtitle
+            p A Polkadot parachain offering DeFi products and a layer 1 infrastructure for DeFi
+            p
+              span.label.label-polkadot Polkadot
+              span.label.label-defi DeFi
         //- Akash
         .grid-row.grid-list.grid-project.filter-dweb.filter-tooling
           .grid-col
@@ -498,7 +504,7 @@ block content
               span.label.label-layer1 Layer1
               span.label.label-dweb dWeb
         //- Connext
-        .grid-row.grid-list.grid-project.filter-layer2.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-layer2
           .grid-col
           .grid-col
           .grid-col
@@ -508,9 +514,8 @@ block content
             p A cross-chain liquidity network that allows transfers between EVM-compatible chains and L2 systems
             p
               span.label.label-layer2 Layer2
-              span.label.label-ethereum Ethereum
         //- DeversiFi
-        .grid-row.grid-list.grid-project.filter-layer2.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-layer2.filter-defi
           .grid-col
           .grid-col
           .grid-col
@@ -521,9 +526,8 @@ block content
             p
               span.label.label-layer2 Layer2
               span.label.label-defi DeFi
-              span.label.label-ethereum Ethereum
         //- dHedge
-        .grid-row.grid-list.grid-project.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-defi
           .grid-col
           .grid-col
           .grid-col
@@ -533,9 +537,8 @@ block content
             p A non-custodial mimetic trading platform for synthetics
             p
               span.label.label-defi DeFi
-              span.label.label-ethereum Ethereum
         //- DODO
-        .grid-row.grid-list.grid-project.filter-dex.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-dex.filter-defi
           .grid-col
           .grid-col
           .grid-col
@@ -546,9 +549,8 @@ block content
             p
               span.label.label-dex DEX
               span.label.label-defi DeFi
-              span.label.label-ethereum Ethereum
         //- Efinity
-        .grid-row.grid-list.grid-project.filter-nft.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -558,9 +560,8 @@ block content
             p A cross-chain platform built with Substrate
             p
               span.label.label-nft NFT
-              span.label.label-polkadot Polkadot
         //- everFinance
-        .grid-row.grid-list.grid-project.filter-defi.filter-arweave
+        .grid-row.grid-list.grid-project.filter-arweave.filter-defi
           .grid-col
           .grid-col
           .grid-col
@@ -569,10 +570,10 @@ block content
           .grid-list-subtitle
             p A cross-chain payment and settlement protocol built on Arweave
             p
-              span.label.label-defi DeFi
               span.label.label-arweave Arweave
+              span.label.label-defi DeFi
         //- Gelato
-        .grid-row.grid-list.grid-project.filter-defi.filter-tooling.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-defi.filter-tooling
           .grid-col
           .grid-col
           .grid-col
@@ -583,7 +584,6 @@ block content
             p
               span.label.label-defi DeFi
               span.label.label-tooling Tooling
-              span.label.label-ethereum Ethereum
         //- Handshake
         .grid-row.grid-list.grid-project.filter-dweb
           .grid-col
@@ -630,7 +630,7 @@ block content
             p
               span.label.label-polkadot Polkadot
         //- MCDEX
-        .grid-row.grid-list.grid-project.filter-dex.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-dex.filter-defi
           .grid-col
           .grid-col
           .grid-col
@@ -641,9 +641,8 @@ block content
             p
               span.label.label-dex DEX
               span.label.label-defi DeFi
-              span.label.label-ethereum Ethereum
         //- Mintbase
-        .grid-row.grid-list.grid-project.filter-nft.filter-near
+        .grid-row.grid-list.grid-project.filter-near.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -652,10 +651,10 @@ block content
           .grid-list-subtitle
             p A platform for NFT minting and marketplace, primarily on NEAR
             p
-              span.label.label-nft NFT
               span.label.label-near NEAR
+              span.label.label-nft NFT
         //- Moonbeam Network
-        .grid-row.grid-list.grid-project.filter-polkadot.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -665,7 +664,6 @@ block content
             p An EVM compatible parachain on Polkadot and Kusama
             p
               span.label.label-polkadot Polkadot
-              span.label.label-ethereum Ethereum
         //- NEAR
         .grid-row.grid-list.grid-project.filter-layer1.filter-near
           .grid-col
@@ -679,7 +677,7 @@ block content
               span.label.label-layer1 Layer1
               span.label.label-near NEAR
         //- Octopus Network
-        .grid-row.grid-list.grid-project.filter-tooling.filter-near.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-near.filter-tooling
           .grid-col
           .grid-col
           .grid-col
@@ -688,11 +686,10 @@ block content
           .grid-list-subtitle
             p A multi-chain network that provide leased security and interoperability to Web3 applications
             p
-              span.label.label-tooling Tooling
               span.label.label-near NEAR
-              span.label.label-polkadot Polkadot
+              span.label.label-tooling Tooling
         //- Paras
-        .grid-row.grid-list.grid-project.filter-nft.filter-near
+        .grid-row.grid-list.grid-project.filter-near.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -701,10 +698,10 @@ block content
           .grid-list-subtitle
             p A digital art card marketplace built on NEAR
             p
-              span.label.label-nft NFT
               span.label.label-near NEAR
+              span.label.label-nft NFT
         //- Pendle
-        .grid-row.grid-list.grid-project.filter-defi.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-defi
           .grid-col
           .grid-col
           .grid-col
@@ -714,9 +711,8 @@ block content
             p A protocol that enables the trading of tokenized future yield on an AMM system
             p
               span.label.label-defi DeFi
-              span.label.label-ethereum Ethereum
         //- Pianity
-        .grid-row.grid-list.grid-project.filter-nft.filter-arweave
+        .grid-row.grid-list.grid-project.filter-arweave.filter-nft
           .grid-col
           .grid-col
           .grid-col
@@ -725,8 +721,8 @@ block content
           .grid-list-subtitle
             p An audiovisual NFT platform on Arweave
             p
-              span.label.label-nft NFT
               span.label.label-arweave Arweave
+              span.label.label-nft NFT
         //- Polkadot
         .grid-row.grid-list.grid-project.filter-layer1.filter-polkadot
           .grid-col
@@ -740,7 +736,7 @@ block content
               span.label.label-layer1 Layer1
               span.label.label-polkadot Polkadot
         //- Polywrap
-        .grid-row.grid-list.grid-project.filter-tooling.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-tooling
           .grid-col
           .grid-col
           .grid-col
@@ -750,7 +746,6 @@ block content
             p A WebAssembly standard for integrating Web3 protocols into applications
             p
               span.label.label-tooling Tooling
-              span.label.label-polkadot Polkadot
         //- Rarible
         .grid-row.grid-list.grid-project.filter-nft
           .grid-col
@@ -775,7 +770,7 @@ block content
               span.label.label-nft NFT
               span.label.label-polkadot Polkadot
         //- Slingshot
-        .grid-row.grid-list.grid-project.filter-dex.filter-ethereum
+        .grid-row.grid-list.grid-project.filter-dex.filter-defi
           .grid-col
           .grid-col
           .grid-col
@@ -785,9 +780,9 @@ block content
             p A liquity aggregator giving traders the best trade execution price
             p
               span.label.label-dex DEX
-              span.label.label-ethereum Ethereum
+              span.label.label-defi DeFi
         //- SubQuery
-        .grid-row.grid-list.grid-project.filter-tooling.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-polkadot.filter-tooling
           .grid-col
           .grid-col
           .grid-col
@@ -796,10 +791,10 @@ block content
           .grid-list-subtitle
             p A Substrate based query service platform using GraphQL
             p
-              span.label.label-tooling Tooling
               span.label.label-polkadot Polkadot
+              span.label.label-tooling Tooling
         //- The Graph
-        .grid-row.grid-list.grid-project.filter-dweb.filter-tooling
+        .grid-row.grid-list.grid-project.filter-tooling.filter-dweb
           .grid-col
           .grid-col
           .grid-col
@@ -808,8 +803,8 @@ block content
           .grid-list-subtitle
             p An indexing protocol for querying multi-chain networks like Ethereum and IPFS
             p
-              span.label.label-dweb dWeb
               span.label.label-tooling Tooling
+              span.label.label-dweb dWeb
         //- Unifty
         .grid-row.grid-list.grid-project.filter-nft
           .grid-col
@@ -822,7 +817,7 @@ block content
             p
               span.label.label-nft NFT
         //- Verto
-        .grid-row.grid-list.grid-project.filter-dex.filter-arweave
+        .grid-row.grid-list.grid-project.filter-arweave.filter-dex
           .grid-col
           .grid-col
           .grid-col
@@ -831,8 +826,8 @@ block content
           .grid-list-subtitle
             p Decentralized trading protocol on Arweave
             p
-              span.label.label-dex DEX
               span.label.label-arweave Arweave
+              span.label.label-dex DEX
         //- Whale
         .grid-row.grid-list.grid-project.filter-nft
           .grid-col
@@ -856,7 +851,7 @@ block content
             p
               span.label.label-nft NFT
         //- Zeitgeist
-        .grid-row.grid-list.grid-project.filter-oracle.filter-polkadot
+        .grid-row.grid-list.grid-project.filter-defi.filter-polkadot
           .grid-col
           .grid-col
           .grid-col
@@ -865,7 +860,7 @@ block content
           .grid-list-subtitle
             p A prediction markets platform using futarchy as governance system on Kusama
             p
-              span.label.label-oracle Oracle
+              span.label.label-defi DeFi
               span.label.label-polkadot Polkadot
         //- Zenlink
         .grid-row.grid-list.grid-project.filter-dex.filter-polkadot
